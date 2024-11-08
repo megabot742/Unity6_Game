@@ -428,9 +428,11 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Assets/Scripts/Dropper.cs"
+"Assets/Scripts/FlyAtPlayer.cs"
 "Assets/Scripts/Mover.cs"
 "Assets/Scripts/ObjectHit.cs"
 "Assets/Scripts/Score.cs"
+"Assets/Scripts/Spinner.cs"
 -langversion:9.0
 /deterministic
 /optimize+
