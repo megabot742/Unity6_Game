@@ -433,6 +433,7 @@
 "Assets/Scripts/ObjectHit.cs"
 "Assets/Scripts/Score.cs"
 "Assets/Scripts/Spinner.cs"
+"Assets/Scripts/TriggerProjectile.cs"
 -langversion:9.0
 /deterministic
 /optimize+
