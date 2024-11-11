@@ -8,7 +8,6 @@ public class Mover : MonoBehaviour
     {
         PrintInstructuon();
     }
-
     // Update is called once per frame
     void Update()
     {

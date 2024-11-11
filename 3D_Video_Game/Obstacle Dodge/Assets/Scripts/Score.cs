@@ -8,7 +8,7 @@ public class Score : MonoBehaviour
         if(other.gameObject.tag != "Hit")
         {
             hits++;
-        Debug.Log("You've bumped into a thing this many times: " + hits);
+            Debug.Log("You've bumped into a thing this many times: " + hits);
         } 
     }
 }
