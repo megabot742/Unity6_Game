@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1706.6667
     height: 976
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Hierarchy
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -426,7 +426,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/GameDevTV Assets/Prefabs
+    - Assets/GameDevTV Assets/Scripts
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -436,16 +436,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/GameDevTV Assets/Prefabs
+  - Assets/GameDevTV Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Unity6_Game\3D_Video_Game\Rocket Boost
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: c6a60000
-    m_LastClickedID: 42694
-    m_ExpandedIDs: 00000000e0a40000e2a4000000ca9a3b
+    m_SelectedIDs: d0a60000
+    m_LastClickedID: 42704
+    m_ExpandedIDs: 00000000e8a40000eaa4000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -474,7 +474,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e0a40000e2a40000
+    m_ExpandedIDs: 00000000e8a40000eaa40000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -622,7 +622,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: fcfaffffdca30000
+      m_ExpandedIDs: fcfaffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1212,9 +1212,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -12.391798, y: -8.127885, z: 22.097248}
+    m_Target: {x: -0.19445324, y: -3.761609, z: 14.800274}
     speed: 2
-    m_Value: {x: -12.391798, y: -8.127885, z: 22.097248}
+    m_Value: {x: -0.19445324, y: -3.761609, z: 14.800274}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1260,13 +1260,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.21958438, y: 0.06645496, z: -0.014713001, w: -0.9736032}
+    m_Target: {x: -0.23307864, y: -0.1671895, z: 0.040893864, w: -0.957518}
     speed: 2
-    m_Value: {x: -0.21759757, y: 0.06353796, z: -0.013921655, w: -0.97386885}
+    m_Value: {x: -0.23298651, y: -0.1671234, z: 0.0408777, w: -0.9571395}
   m_Size:
     m_Target: 13.997035
     speed: 2
-    m_Value: 1.8721123
+    m_Value: 13.997035
   m_Ortho:
     m_Target: 0
     speed: 2
