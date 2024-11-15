@@ -16,6 +16,14 @@
       "version": "2.0.4",
       "source": "registry"
     },
+    "com.unity.cinemachine@3.1.2": {
+      "name": "com.unity.cinemachine",
+      "resolvedPath": "D:\\Unity6_Game\\3D_Video_Game\\Rocket Boost\\Library\\PackageCache\\com.unity.cinemachine",
+      "fingerprint": "b2e7bffab7726d3b59b19bdf5d6f8e78f70b6c3b",
+      "editorCompatibility": "2022.3.0a1",
+      "version": "3.1.2",
+      "source": "registry"
+    },
     "com.unity.collab-proxy@2.5.2": {
       "name": "com.unity.collab-proxy",
       "resolvedPath": "D:\\Unity6_Game\\3D_Video_Game\\Rocket Boost\\Library\\PackageCache\\com.unity.collab-proxy",
@@ -332,6 +340,14 @@
       "version": "17.0.3",
       "source": "builtin"
     },
+    "com.unity.splines@2.6.1": {
+      "name": "com.unity.splines",
+      "resolvedPath": "D:\\Unity6_Game\\3D_Video_Game\\Rocket Boost\\Library\\PackageCache\\com.unity.splines",
+      "fingerprint": "930eaf55e68be9f5d58f63035b2a96d9c3c3e695",
+      "editorCompatibility": "2022.3.0a1",
+      "version": "2.6.1",
+      "source": "registry"
+    },
     "com.unity.searcher@4.9.2": {
       "name": "com.unity.searcher",
       "resolvedPath": "D:\\Unity6_Game\\3D_Video_Game\\Rocket Boost\\Library\\PackageCache\\com.unity.searcher",
@@ -371,6 +387,14 @@
       "editorCompatibility": "2023.3.0b1",
       "version": "1.0.1",
       "source": "builtin"
+    },
+    "com.unity.settings-manager@2.0.1": {
+      "name": "com.unity.settings-manager",
+      "resolvedPath": "D:\\Unity6_Game\\3D_Video_Game\\Rocket Boost\\Library\\PackageCache\\com.unity.settings-manager",
+      "fingerprint": "56a930affa1e4462d3595b5c19a1c2a4bf2015d2",
+      "editorCompatibility": "2018.4.0a1",
+      "version": "2.0.1",
+      "source": "registry"
     },
     "com.unity.nuget.mono-cecil@1.11.4": {
       "name": "com.unity.nuget.mono-cecil",
