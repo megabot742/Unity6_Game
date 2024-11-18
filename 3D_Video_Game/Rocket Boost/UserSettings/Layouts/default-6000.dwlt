@@ -47,7 +47,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 43
+  controlID: 44
   draggingID: 0
 --- !u!114 &3
 MonoBehaviour:
@@ -73,7 +73,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 44
+  controlID: 45
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 45
+  controlID: 46
   draggingID: 0
 --- !u!114 &11
 MonoBehaviour:
@@ -275,7 +275,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 46
+  controlID: 47
   draggingID: 0
 --- !u!114 &12
 MonoBehaviour:
@@ -451,7 +451,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Scenes
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -461,16 +461,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 75
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Scenes
   m_LastFoldersGridSize: 75
   m_LastProjectPath: D:\Unity6_Game\3D_Video_Game\Rocket Boost
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: caad0000
-    m_LastClickedID: 44490
-    m_ExpandedIDs: 000000005aab000000ca9a3b
+    m_SelectedIDs: d8ad0000
+    m_LastClickedID: 44504
+    m_ExpandedIDs: 0000000070ab000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -499,7 +499,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000005aab00005cab0000
+    m_ExpandedIDs: 0000000070ab0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -647,7 +647,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: fcfaffff
+      m_ExpandedIDs: 38e6ffff50e7ffff1aedfffffcfaffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1237,9 +1237,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -2.0259511, y: -2.1472414, z: 19.97135}
+    m_Target: {x: -0.7351893, y: 8.0634985, z: 17.926346}
     speed: 2
-    m_Value: {x: -2.0259511, y: -2.1472414, z: 19.97135}
+    m_Value: {x: -0.7351893, y: 8.0634985, z: 17.926346}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1285,9 +1285,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.19861232, y: 0.0049788496, z: -0.001020821, w: -0.98074836}
+    m_Target: {x: -0.004802225, y: -0.06192409, z: 0.0003109677, w: -0.9987684}
     speed: 2
-    m_Value: {x: -0.19847937, y: 0.004975517, z: -0.0010201377, w: -0.98009187}
+    m_Value: {x: -0.004798877, y: -0.061880913, z: 0.00031075088, w: -0.998072}
   m_Size:
     m_Target: 15.285112
     speed: 2
