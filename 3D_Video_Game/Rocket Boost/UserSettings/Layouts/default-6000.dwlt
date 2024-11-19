@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1706.6667
     height: 976
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Scene
   m_RootView: {fileID: 7}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -94,8 +94,8 @@ MonoBehaviour:
     y: 0
     width: 343.33325
     height: 920
-  m_MinSize: {x: 276, y: 76}
-  m_MaxSize: {x: 4001, y: 4026}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -451,7 +451,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Particles
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -459,18 +459,18 @@ MonoBehaviour:
     m_ImportLogFlags: 0
     m_FilterByTypeIntersection: 0
   m_ViewMode: 1
-  m_StartGridSize: 75
+  m_StartGridSize: 73
   m_LastFolders:
-  - Assets/Scenes
-  m_LastFoldersGridSize: 75
+  - Assets/Particles
+  m_LastFoldersGridSize: 73
   m_LastProjectPath: D:\Unity6_Game\3D_Video_Game\Rocket Boost
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: d8ad0000
-    m_LastClickedID: 44504
-    m_ExpandedIDs: 0000000070ab000000ca9a3b
+    m_SelectedIDs: f4d00000
+    m_LastClickedID: 53492
+    m_ExpandedIDs: 0000000074ab000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -499,7 +499,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000070ab0000
+    m_ExpandedIDs: 0000000074ab0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -554,7 +554,7 @@ MonoBehaviour:
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
     m_ScrollPosition: {x: 0, y: 0}
-    m_GridSize: 75
+    m_GridSize: 73
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
 --- !u!114 &15
@@ -647,7 +647,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 38e6ffff50e7ffff1aedfffffcfaffff
+      m_ExpandedIDs: e296ffff3c98ffffce99ffffb8a0ffff0aa6ffffe0aaffff14afffff1abfffff90c8fffff8e4fffffcfafffff4ffffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -949,11 +949,11 @@ MonoBehaviour:
       displayed: 0
       id: Scene View/Particles
       index: 7
-      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":25.333332061767579},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 24, y: 0}
+      snapOffset: {x: 24, y: 25.333332}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       layout: 4
       size: {x: 0, y: 0}
@@ -1237,9 +1237,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -0.7351893, y: 8.0634985, z: 17.926346}
+    m_Target: {x: -7.9570565, y: 1.6374413, z: 7.977426}
     speed: 2
-    m_Value: {x: -0.7351893, y: 8.0634985, z: 17.926346}
+    m_Value: {x: -7.9570565, y: 1.6374413, z: 7.977426}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1285,13 +1285,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.004802225, y: -0.06192409, z: 0.0003109677, w: -0.9987684}
+    m_Target: {x: -0.1275497, y: 0.015029954, z: -0.0013789729, w: -0.9924733}
     speed: 2
-    m_Value: {x: -0.004798877, y: -0.061880913, z: 0.00031075088, w: -0.998072}
+    m_Value: {x: -0.12745415, y: 0.015018694, z: -0.0013779398, w: -0.9917298}
   m_Size:
-    m_Target: 15.285112
+    m_Target: 10.40526
     speed: 2
-    m_Value: 15.285112
+    m_Value: 10.40526
   m_Ortho:
     m_Target: 0
     speed: 2

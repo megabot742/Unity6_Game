@@ -1,10 +1,24 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
 public class CollisionHandler : MonoBehaviour
 {
+    [SerializeField] float levelLoadDelay = 1f;
+    [SerializeField] AudioClip successSFX;
+    [SerializeField] AudioClip crashSFX;
+    [SerializeField] ParticleSystem successParticles;
+    [SerializeField] ParticleSystem crashParticles;
+
+    AudioSource audioSource;
+    bool isControllable = true;
+    void Start() 
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
     void OnCollisionEnter(Collision other) 
     {
+        if(!isControllable) {return;}
         switch (other.gameObject.tag)
         {
             case "Fuel":
@@ -14,13 +28,30 @@ public class CollisionHandler : MonoBehaviour
                 Debug.Log("Ready to fly");
                 break;
             case "Finish":
-                Debug.Log("Landing");
-                LoadNextLevel();
+                StartSuccessSequence();
                 break;
             default:
-                ReloadLevel();
+                StartCrashSequence();            
                 break;
         }
+    }
+    private void StartSuccessSequence()
+    {
+        isControllable = false;
+        audioSource.Stop(); // stop audio before success
+        audioSource.PlayOneShot(successSFX);
+        successParticles.Play();
+        GetComponent<Movement>().enabled = false;
+        Invoke("LoadNextLevel", levelLoadDelay);
+    }
+    void StartCrashSequence()
+    {
+        isControllable = false;
+        audioSource.Stop(); // stop audio before crash
+        audioSource.PlayOneShot(crashSFX);
+        crashParticles.Play();
+        GetComponent<Movement>().enabled = false;
+        Invoke("ReloadLevel", levelLoadDelay);
     }
     void LoadNextLevel()
     {
@@ -37,5 +68,4 @@ public class CollisionHandler : MonoBehaviour
         int currentScene = SceneManager.GetActiveScene().buildIndex; // get current scene when playing
         SceneManager.LoadScene(currentScene); // reload current scene
     }
-    
 }
