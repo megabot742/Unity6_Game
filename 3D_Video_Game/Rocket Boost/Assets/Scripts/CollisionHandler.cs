@@ -12,13 +12,29 @@ public class CollisionHandler : MonoBehaviour
 
     AudioSource audioSource;
     bool isControllable = true;
+    bool isCollidable = true;
     void Start() 
     {
         audioSource = GetComponent<AudioSource>();
     }
+    private void Update() {
+        RespondToDebugKey();    
+    }
+    void RespondToDebugKey()
+    {
+        if(Input.GetKeyDown(KeyCode.L))
+        {
+            LoadNextLevel();
+        }
+        else if(Input.GetKeyDown(KeyCode.C))
+        {
+            isCollidable = !isCollidable;
+            Debug.Log("TURN OFF COLLISION");
+        }
+    }
     void OnCollisionEnter(Collision other) 
     {
-        if(!isControllable) {return;}
+        if(!isControllable || !isCollidable) {return;}
         switch (other.gameObject.tag)
         {
             case "Fuel":
@@ -68,4 +84,5 @@ public class CollisionHandler : MonoBehaviour
         int currentScene = SceneManager.GetActiveScene().buildIndex; // get current scene when playing
         SceneManager.LoadScene(currentScene); // reload current scene
     }
+    
 }
