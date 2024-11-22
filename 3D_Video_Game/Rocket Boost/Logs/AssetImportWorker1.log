@@ -15,7 +15,7 @@ D:/Unity6_Game/3D_Video_Game/Rocket Boost
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-60122
+61458
 -job-worker-count
 7
 -background-job-worker-count
@@ -59,12 +59,12 @@ D:/Unity6_Game/3D_Video_Game/Rocket Boost
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [26040]  Target information:
+Player connection [30056]  Target information:
 
-Player connection [26040]  * "[IP] 192.168.2.8 [Port] 0 [Flags] 2 [Guid] 329564934 [EditorId] 329564934 [Version] 1048832 [Id] WindowsEditor(7,LEGION-Y7000P) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [30056]  * "[IP] 192.168.2.8 [Port] 0 [Flags] 2 [Guid] 800547755 [EditorId] 800547755 [Version] 1048832 [Id] WindowsEditor(7,LEGION-Y7000P) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [26040] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [26040] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [30056] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [30056] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -75,7 +75,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.24f1 (11fa355cd605)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/Resources/UnitySubsystems
@@ -91,46 +91,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56464
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56728
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003117 seconds.
-- Loaded All Assemblies, in  0.343 seconds
+Registered in 0.002466 seconds.
+- Loaded All Assemblies, in  0.479 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.314 seconds
-Domain Reload Profiling: 655ms
-	BeginReloadAssembly (111ms)
+- Finished resetting the current domain, in  0.354 seconds
+Domain Reload Profiling: 831ms
+	BeginReloadAssembly (196ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (43ms)
-	LoadAllAssembliesAndSetupDomain (146ms)
-		LoadAssemblies (109ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (185ms)
+		LoadAssemblies (194ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (143ms)
-			TypeCache.Refresh (142ms)
-				TypeCache.ScanAssembly (127ms)
+		AnalyzeDomain (181ms)
+			TypeCache.Refresh (180ms)
+				TypeCache.ScanAssembly (163ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (315ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (354ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (288ms)
+		SetupLoadedEditorAssemblies (316ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (25ms)
+			InitializePlatformSupportModulesInManaged (23ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (5ms)
-			ProcessInitializeOnLoadAttributes (193ms)
-			ProcessInitializeOnLoadMethodAttributes (58ms)
-			AfterProcessingInitializeOnLoad (2ms)
+			BeforeProcessingInitializeOnLoad (7ms)
+			ProcessInitializeOnLoadAttributes (212ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
@@ -141,11 +141,11 @@ Import Worker Mode flag is 0x00
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.898 seconds
+- Loaded All Assemblies, in  1.086 seconds
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
@@ -154,144 +154,60 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.815 seconds
-Domain Reload Profiling: 1711ms
-	BeginReloadAssembly (379ms)
+- Finished resetting the current domain, in  0.825 seconds
+Domain Reload Profiling: 1909ms
+	BeginReloadAssembly (384ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (24ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (453ms)
-		LoadAssemblies (291ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (627ms)
+		LoadAssemblies (403ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (240ms)
-			TypeCache.Refresh (157ms)
-				TypeCache.ScanAssembly (142ms)
+		AnalyzeDomain (308ms)
+			TypeCache.Refresh (230ms)
+				TypeCache.ScanAssembly (213ms)
 			BuildScriptInfoCaches (62ms)
-			ResolveRequiredComponents (18ms)
-	FinalizeReload (815ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (826ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (582ms)
+		SetupLoadedEditorAssemblies (594ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (3ms)
 			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (54ms)
-			ProcessInitializeOnLoadAttributes (444ms)
-			ProcessInitializeOnLoadMethodAttributes (70ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (437ms)
+			ProcessInitializeOnLoadMethodAttributes (73ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 200 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6289 unused Assets / (4.3 MB). Loaded Objects now: 7056.
-Memory consumption went from 185.7 MB to 181.4 MB.
-Total: 6.435200 ms (FindLiveObjects: 0.440900 ms CreateObjectMapping: 0.276600 ms MarkObjects: 4.169600 ms  DeleteObjects: 1.546500 ms)
+Unloading 6289 unused Assets / (3.7 MB). Loaded Objects now: 7056.
+Memory consumption went from 184.0 MB to 180.3 MB.
+Total: 7.223500 ms (FindLiveObjects: 0.497200 ms CreateObjectMapping: 0.327100 ms MarkObjects: 4.839700 ms  DeleteObjects: 1.558300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 547294.993260 seconds.
-  path: Assets/GameDevTV Assets/Materials and Textures/Rocket Blue.mat
-  artifactKey: Guid(f084d4f4c5c90874d9e97b3a252d1482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameDevTV Assets/Materials and Textures/Rocket Blue.mat using Guid(f084d4f4c5c90874d9e97b3a252d1482) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b7e93a977cd0e7f8a797d97bcd51a41') in 0.4361597 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 633301.622920 seconds.
+  path: Assets/Prefabs/Player Rocket.prefab
+  artifactKey: Guid(0a375d132a69ea848b5a3d331248773f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player Rocket.prefab using Guid(0a375d132a69ea848b5a3d331248773f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b85ebbe0d891f41691657384e23afa2b') in 0.4467879 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 222
 
 ========================================================================
 Received Import Request.
-  Time since last request: 767.551889 seconds.
-  path: Assets/Prefabs/Crate_02_2_Glow.prefab
-  artifactKey: Guid(330e1f98bae884f419756a933b6789cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Crate_02_2_Glow.prefab using Guid(330e1f98bae884f419756a933b6789cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b98b28ba1c4ba6dffcf13a38c3dbeda6') in 0.069703 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+  Time since last request: 10770.724796 seconds.
+  path: Assets/Prefabs/Launch Pad.prefab
+  artifactKey: Guid(1913b656ff7aadb4da561b82f6c6ce80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Launch Pad.prefab using Guid(1913b656ff7aadb4da561b82f6c6ce80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aa1123542ee410fcbf01cadbe9d9a0a0') in 0.1813325 seconds
+Number of updated asset objects reloaded before import = 5Number of asset objects unloaded after import = 21
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Prefabs/Dropship_01_Piping_02_Red.prefab
-  artifactKey: Guid(286f3f636b6869f4b8ae94acef39759e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Dropship_01_Piping_02_Red.prefab using Guid(286f3f636b6869f4b8ae94acef39759e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01beae40cb5a48088b71827d9121afab') in 0.0210858 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Prefabs/Fighter_10_Yellow.prefab
-  artifactKey: Guid(b8f8447decf7aee40a035bd336e6ea60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Fighter_10_Yellow.prefab using Guid(b8f8447decf7aee40a035bd336e6ea60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d5ec4fba9634eb6269bb7e532bdb423') in 0.025341 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Prefabs/Dropship_03_Handle.prefab
-  artifactKey: Guid(90d782a35d16f404d8240b028dbbf169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Dropship_03_Handle.prefab using Guid(90d782a35d16f404d8240b028dbbf169) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7cb54e9fb1e35f5c264b491a4111e704') in 0.0297521 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Prefabs/Fighter_03_Engine_Yellow.prefab
-  artifactKey: Guid(c3e2912bb4210ad4e875574acf909330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Fighter_03_Engine_Yellow.prefab using Guid(c3e2912bb4210ad4e875574acf909330) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd28faae52e171c36edd1629a61ded221') in 0.0234917 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Prefabs/Mothership_01_Detail_1_Red.prefab
-  artifactKey: Guid(3618d3b5108f1fa40bd9f2be14209596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Mothership_01_Detail_1_Red.prefab using Guid(3618d3b5108f1fa40bd9f2be14209596) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85ae6c7c7dbb52f9a89f4bd937b0f92c') in 0.0389044 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Prefabs/Dropship_05_Antenna_Yellow.prefab
-  artifactKey: Guid(5b1a660923d36d94faff5a68bac65e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Dropship_05_Antenna_Yellow.prefab using Guid(5b1a660923d36d94faff5a68bac65e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e8f939b53eb03d666eb235069738303') in 0.0383585 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Prefabs/Dropship_01_Left_Compartment_Red.prefab
-  artifactKey: Guid(58e0754e56fd48648a44a33cc789c611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Dropship_01_Left_Compartment_Red.prefab using Guid(58e0754e56fd48648a44a33cc789c611) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d6b3274b85171c33c4bb72253579cee') in 0.0176524 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Prefabs/Mothership_01_Detail_1_Blue.prefab
-  artifactKey: Guid(147d493a457d1b844af9a657899bebf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Mothership_01_Detail_1_Blue.prefab using Guid(147d493a457d1b844af9a657899bebf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90544691f350221acdbb3791f1e4778e') in 0.0174914 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Prefabs/Rover_01_Neutral.prefab
-  artifactKey: Guid(8dd1b1b8da7d13542be689972bf793ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Rover_01_Neutral.prefab using Guid(8dd1b1b8da7d13542be689972bf793ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d1f34c66b3e9f461da5fdb872a0d37b') in 0.0193602 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Prefabs/Dropship_05_Fuse_Red.prefab
-  artifactKey: Guid(25ecf02464d9b0945bb3a48f13ce8c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Dropship_05_Fuse_Red.prefab using Guid(25ecf02464d9b0945bb3a48f13ce8c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a07243955dbf0933edb67ae61c5147fc') in 0.0163564 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
-
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
