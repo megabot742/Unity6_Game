@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638692425402260569
-    m_Hash: 4017672569
+      ticks: 638693251408229289
+    m_Hash: 2831943776
   m_LockFileStatus:
     m_FilePath: D:/Unity6_Game/3D_Video_Game/Galaxy Strike/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638692425402300958
-    m_Hash: 728128708
+      ticks: 638693251408254396
+    m_Hash: 3044140365
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -952,6 +952,119 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 17.0.3
     minimumUnityVersion: 6000.0.0a1
+- packageId: com.unity.terrain-tools@5.1.2
+  testable: 0
+  isDirectDependency: 1
+  version: 5.1.2
+  source: 1
+  resolvedPath: D:\Unity6_Game\3D_Video_Game\Galaxy Strike\Library\PackageCache\com.unity.terrain-tools
+  assetPath: Packages/com.unity.terrain-tools
+  name: com.unity.terrain-tools
+  displayName: Terrain Tools
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: "The Terrain Tools package adds additional Terrain sculpting brushes
+    and tools to Unity. This add-on toolset is suitable if you require more control
+    over the appearance of your Terrain, and want to streamline Terrain workflows.
+    It\u2019s also useful when you want to make more complex-looking Terrain, or
+    author Terrain Texture data in external digital content creation tools."
+  errors: []
+  versions:
+    all:
+    - 1.1.2-preview
+    - 1.1.4-preview
+    - 2.0.0-preview
+    - 2.0.1-preview
+    - 2.0.2-preview
+    - 3.0.0-preview
+    - 3.0.1-preview
+    - 3.0.2-preview.2
+    - 3.0.2-preview.3
+    - 4.0.0-pre.2
+    - 4.0.0
+    - 4.0.3
+    - 4.0.5
+    - 5.0.0-pre.2
+    - 5.0.0-pre.3
+    - 5.0.0-pre.4
+    - 5.0.1
+    - 5.0.2
+    - 5.0.3
+    - 5.0.4
+    - 5.0.5
+    - 5.1.0-pre.1
+    - 5.1.0
+    - 5.1.1
+    - 5.1.2
+    compatible:
+    - 5.1.2
+    recommended: 5.1.2
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.terrain
+    version: 1.0.0
+  - name: com.unity.modules.terrainphysics
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.terrain
+    version: 1.0.0
+  - name: com.unity.modules.terrainphysics
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  keywords:
+  - Terrain
+  - Brush
+  - Toolbox
+  - Mask
+  - Filter
+  - Noise
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638587933310000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.terrain-tools@5.1/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/TerrainTools.git
+    revision: e43b07b66fa36045729d62c0c6a845159b167257
+    path: 
+  unityLifecycle:
+    version: 5.1.2
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Changed:\n- Updated version to 5.1.2\n\n### Fixed:\n-
+    Removed unecessary .meta file\n- Fixed warnings about deprecated APIs.\n- Fix
+    issue where IsPowerOfTwo returns true for negative ints\n- Test for IsPowerOfTwo
+    is updated to check up to 2^30 and includes negative cases"}'
+  assetStore:
+    productId: 
+  fingerprint: d4bcf51a280e611c70611a4f4045f686f2948913
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 5.1.2
+    minimumUnityVersion: 2023.1.0a25
 - packageId: com.unity.test-framework@1.4.5
   testable: 0
   isDirectDependency: 1
