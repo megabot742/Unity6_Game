@@ -128,6 +128,7 @@
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
 -define:TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER
 -define:USING_PHYSICS2D
+-define:VISUAL_EFFECT_GRAPH_0_0_1_OR_NEWER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/Managed/UnityEditor.Graphs.dll"

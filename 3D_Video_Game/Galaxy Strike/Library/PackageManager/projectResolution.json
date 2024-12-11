@@ -40,6 +40,14 @@
       "version": "2.0.22",
       "source": "registry"
     },
+    "com.unity.ide.vscode@1.2.4": {
+      "name": "com.unity.ide.vscode",
+      "resolvedPath": "D:\\Unity6_Game\\3D_Video_Game\\Galaxy Strike\\Library\\PackageCache\\com.unity.ide.vscode",
+      "fingerprint": "eb5de66d4c77580302e328d62de70e3074f61721",
+      "editorCompatibility": "2019.2.0a12",
+      "version": "1.2.4",
+      "source": "registry"
+    },
     "com.unity.inputsystem@1.11.1": {
       "name": "com.unity.inputsystem",
       "resolvedPath": "D:\\Unity6_Game\\3D_Video_Game\\Galaxy Strike\\Library\\PackageCache\\com.unity.inputsystem",
@@ -56,10 +64,26 @@
       "version": "1.0.0",
       "source": "builtin"
     },
+    "com.unity.render-pipelines.high-definition@17.0.3": {
+      "name": "com.unity.render-pipelines.high-definition",
+      "resolvedPath": "D:\\Unity6_Game\\3D_Video_Game\\Galaxy Strike\\Library\\PackageCache\\com.unity.render-pipelines.high-definition",
+      "fingerprint": "b50a0775ac21a445abf96df3b5dca48c5e8d13d3",
+      "editorCompatibility": "6000.0.0a1",
+      "version": "17.0.3",
+      "source": "builtin"
+    },
     "com.unity.render-pipelines.universal@17.0.3": {
       "name": "com.unity.render-pipelines.universal",
       "resolvedPath": "D:\\Unity6_Game\\3D_Video_Game\\Galaxy Strike\\Library\\PackageCache\\com.unity.render-pipelines.universal",
       "fingerprint": "2a7c7c74a6bc0b872bcec9857be27b25a4537bb8",
+      "editorCompatibility": "6000.0.0a1",
+      "version": "17.0.3",
+      "source": "builtin"
+    },
+    "com.unity.shadergraph@17.0.3": {
+      "name": "com.unity.shadergraph",
+      "resolvedPath": "D:\\Unity6_Game\\3D_Video_Game\\Galaxy Strike\\Library\\PackageCache\\com.unity.shadergraph",
+      "fingerprint": "2a323fec5dcc1ed9dbe9f3565d9515da8cc6058b",
       "editorCompatibility": "6000.0.0a1",
       "version": "17.0.3",
       "source": "builtin"
@@ -324,13 +348,13 @@
       "version": "17.0.3",
       "source": "builtin"
     },
-    "com.unity.shadergraph@17.0.3": {
-      "name": "com.unity.shadergraph",
-      "resolvedPath": "D:\\Unity6_Game\\3D_Video_Game\\Galaxy Strike\\Library\\PackageCache\\com.unity.shadergraph",
-      "fingerprint": "2a323fec5dcc1ed9dbe9f3565d9515da8cc6058b",
-      "editorCompatibility": "6000.0.0a1",
-      "version": "17.0.3",
-      "source": "builtin"
+    "com.unity.searcher@4.9.2": {
+      "name": "com.unity.searcher",
+      "resolvedPath": "D:\\Unity6_Game\\3D_Video_Game\\Galaxy Strike\\Library\\PackageCache\\com.unity.searcher",
+      "fingerprint": "90d011a70418fd5b0f4b8e86df39444d2af228dd",
+      "editorCompatibility": "2019.1.0a1",
+      "version": "4.9.2",
+      "source": "registry"
     },
     "com.unity.render-pipelines.universal-config@17.0.3": {
       "name": "com.unity.render-pipelines.universal-config",
@@ -340,13 +364,21 @@
       "version": "17.0.3",
       "source": "builtin"
     },
-    "com.unity.searcher@4.9.2": {
-      "name": "com.unity.searcher",
-      "resolvedPath": "D:\\Unity6_Game\\3D_Video_Game\\Galaxy Strike\\Library\\PackageCache\\com.unity.searcher",
-      "fingerprint": "90d011a70418fd5b0f4b8e86df39444d2af228dd",
-      "editorCompatibility": "2019.1.0a1",
-      "version": "4.9.2",
-      "source": "registry"
+    "com.unity.visualeffectgraph@17.0.3": {
+      "name": "com.unity.visualeffectgraph",
+      "resolvedPath": "D:\\Unity6_Game\\3D_Video_Game\\Galaxy Strike\\Library\\PackageCache\\com.unity.visualeffectgraph",
+      "fingerprint": "a0ec68d00d8e21346ec34284771aa0c0be905f94",
+      "editorCompatibility": "6000.0.0a1",
+      "version": "17.0.3",
+      "source": "builtin"
+    },
+    "com.unity.render-pipelines.high-definition-config@17.0.3": {
+      "name": "com.unity.render-pipelines.high-definition-config",
+      "resolvedPath": "D:\\Unity6_Game\\3D_Video_Game\\Galaxy Strike\\Library\\PackageCache\\com.unity.render-pipelines.high-definition-config",
+      "fingerprint": "d45858853e614916d0e96df55a30b8c69d642992",
+      "editorCompatibility": "6000.0.0a1",
+      "version": "17.0.3",
+      "source": "builtin"
     },
     "com.unity.burst@1.8.18": {
       "name": "com.unity.burst",
