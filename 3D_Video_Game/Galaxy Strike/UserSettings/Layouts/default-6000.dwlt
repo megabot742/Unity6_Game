@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1706.6667
     height: 976
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Scene
   m_RootView: {fileID: 9}
   m_MinSize: {x: 875, y: 332}
   m_MaxSize: {x: 10000, y: 10000}
@@ -47,10 +47,10 @@ MonoBehaviour:
   m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 20}
   m_Panes:
-  - {fileID: 16}
   - {fileID: 20}
-  m_Selected: 1
-  m_LastSelected: 0
+  - {fileID: 16}
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -70,8 +70,8 @@ MonoBehaviour:
     y: 0
     width: 336
     height: 330
-  m_MinSize: {x: 201, y: 226}
-  m_MaxSize: {x: 4001, y: 4026}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -101,7 +101,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 65
+  controlID: 67
   draggingID: 0
 --- !u!114 &5
 MonoBehaviour:
@@ -173,8 +173,8 @@ MonoBehaviour:
     y: 0
     width: 369.33325
     height: 920
-  m_MinSize: {x: 276, y: 76}
-  m_MaxSize: {x: 4001, y: 4026}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -232,7 +232,7 @@ MonoBehaviour:
     y: 0
     width: 1706.6666
     height: 976
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 332}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 36
@@ -574,7 +574,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs
+    - Assets/Prefabs/Ships
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -582,32 +582,32 @@ MonoBehaviour:
     m_ImportLogFlags: 0
     m_FilterByTypeIntersection: 0
   m_ViewMode: 1
-  m_StartGridSize: 65
+  m_StartGridSize: 77
   m_LastFolders:
-  - Assets/Prefabs
-  m_LastFoldersGridSize: 65
+  - Assets/Prefabs/Ships
+  m_LastFoldersGridSize: 77
   m_LastProjectPath: D:\Unity6_Game\3D_Video_Game\Galaxy Strike
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 24}
-    m_SelectedIDs: c4c90000
-    m_LastClickedID: 51652
-    m_ExpandedIDs: 00000000aac70000acc70000aec70000b0c70000b2c70000bac90000
+    scrollPos: {x: 0, y: 184}
+    m_SelectedIDs: 88d50000
+    m_LastClickedID: 54664
+    m_ExpandedIDs: 00000000c0c70000c2c70000c4c70000d2c90000dac90000c0d70000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: GDTV Aseets
-      m_OriginalName: GDTV Aseets
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 51642
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
       m_ClientGUIView: {fileID: 8}
@@ -622,7 +622,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000aac70000acc70000aec70000b0c70000b2c70000b4c70000
+    m_ExpandedIDs: 00000000c0c70000c2c70000c4c70000c6c70000c8c70000cac70000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -677,7 +677,7 @@ MonoBehaviour:
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
     m_ScrollPosition: {x: 0, y: 0}
-    m_GridSize: 65
+    m_GridSize: 77
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 234.33334
 --- !u!114 &18
@@ -770,7 +770,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: f202ffffe0faffff
+      m_ExpandedIDs: 14cafdff18cafdff1ecafdff1cd6fdff22d6fdff94e5fdff9ae5fdff92effdff98effdff1a0efeff200efeff2663feff7e6cfeff806cfeffc474feff80a6feff8ca6feff8ea6fefffedefeff0edffeff38e1feff98effeff40fffeffe0faffffe6c3000012c4000044c4000054c400006cc4000002e000002ae000002ee00000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1500,9 +1500,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 127.66287, y: 18.891808, z: 194.6607}
+    m_Target: {x: -15.782081, y: 18.453371, z: -10.345728}
     speed: 2
-    m_Value: {x: 127.66287, y: 18.891808, z: 194.6607}
+    m_Value: {x: -15.782081, y: 18.453371, z: -10.345728}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1548,13 +1548,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.21270923, y: -0.018006237, z: -0.0010064052, w: 0.9792828}
+    m_Target: {x: 0.30657518, y: -0.054606855, z: 0.011042969, w: 0.95330495}
     speed: 2
-    m_Value: {x: 0.21222425, y: -0.016988182, z: -0.0012163471, w: 0.9770726}
+    m_Value: {x: 0.30566627, y: -0.055397466, z: 0.011316313, w: 0.95045847}
   m_Size:
-    m_Target: 50.25442
+    m_Target: 7.1442814
     speed: 2
-    m_Value: 30.133158
+    m_Value: 8.608907
   m_Ortho:
     m_Target: 0
     speed: 2
