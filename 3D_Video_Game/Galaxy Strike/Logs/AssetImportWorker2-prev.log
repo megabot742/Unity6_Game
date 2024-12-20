@@ -15,7 +15,7 @@ D:/Unity6_Game/3D_Video_Game/Galaxy Strike
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-55614
+51315
 -job-worker-count
 7
 -background-job-worker-count
@@ -59,12 +59,12 @@ D:/Unity6_Game/3D_Video_Game/Galaxy Strike
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [24488]  Target information:
+Player connection [27988]  Target information:
 
-Player connection [24488]  * "[IP] 192.168.2.4 [Port] 0 [Flags] 2 [Guid] 2056208577 [EditorId] 2056208577 [Version] 1048832 [Id] WindowsEditor(7,LEGION-Y7000P) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [27988]  * "[IP] 192.168.2.4 [Port] 0 [Flags] 2 [Guid] 3275091556 [EditorId] 3275091556 [Version] 1048832 [Id] WindowsEditor(7,LEGION-Y7000P) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [24488] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [24488] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [27988] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [27988] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -75,7 +75,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 198.50 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.24f1 (11fa355cd605)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/Resources/UnitySubsystems
@@ -91,49 +91,49 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56872
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56400
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.003878 seconds.
-- Loaded All Assemblies, in  0.383 seconds
+Registered in 1.724447 seconds.
+- Loaded All Assemblies, in 26.527 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 184 ms
+Android Extension - Scanning For ADB Devices 191 ms
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.581 seconds
-Domain Reload Profiling: 962ms
-	BeginReloadAssembly (131ms)
+- Finished resetting the current domain, in  0.478 seconds
+Domain Reload Profiling: 27004ms
+	BeginReloadAssembly (19377ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (33ms)
+	RebuildCommonClasses (1281ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (159ms)
-		LoadAssemblies (130ms)
+	initialDomainReloadingComplete (1760ms)
+	LoadAllAssembliesAndSetupDomain (4098ms)
+		LoadAssemblies (19376ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (155ms)
-			TypeCache.Refresh (153ms)
-				TypeCache.ScanAssembly (139ms)
+		AnalyzeDomain (4094ms)
+			TypeCache.Refresh (4093ms)
+				TypeCache.ScanAssembly (3365ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (581ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (479ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (527ms)
+		SetupLoadedEditorAssemblies (443ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (261ms)
+			InitializePlatformSupportModulesInManaged (259ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (7ms)
-			ProcessInitializeOnLoadAttributes (164ms)
-			ProcessInitializeOnLoadMethodAttributes (87ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (117ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
+			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
@@ -141,266 +141,197 @@ Domain Reload Profiling: 962ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.910 seconds
+- Loaded All Assemblies, in 26.501 seconds
 'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 1.46 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.790 seconds
-Domain Reload Profiling: 1696ms
-	BeginReloadAssembly (319ms)
+- Finished resetting the current domain, in  1.914 seconds
+Domain Reload Profiling: 28413ms
+	BeginReloadAssembly (2499ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (23ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (39ms)
-	LoadAllAssembliesAndSetupDomain (499ms)
-		LoadAssemblies (314ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (23935ms)
+		LoadAssemblies (21972ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (268ms)
-			TypeCache.Refresh (183ms)
-				TypeCache.ScanAssembly (167ms)
+		AnalyzeDomain (2042ms)
+			TypeCache.Refresh (1957ms)
+				TypeCache.ScanAssembly (1812ms)
 			BuildScriptInfoCaches (73ms)
 			ResolveRequiredComponents (9ms)
-	FinalizeReload (790ms)
+	FinalizeReload (1914ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (572ms)
+		SetupLoadedEditorAssemblies (1137ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (10ms)
 			SetLoadedEditorAssemblies (4ms)
 			BeforeProcessingInitializeOnLoad (59ms)
-			ProcessInitializeOnLoadAttributes (420ms)
-			ProcessInitializeOnLoadMethodAttributes (74ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			ProcessInitializeOnLoadAttributes (964ms)
+			ProcessInitializeOnLoadMethodAttributes (96ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 502 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7781 unused Assets / (23.1 MB). Loaded Objects now: 8549.
-Memory consumption went from 284.4 MB to 261.3 MB.
-Total: 9.055300 ms (FindLiveObjects: 0.530100 ms CreateObjectMapping: 0.348000 ms MarkObjects: 4.213500 ms  DeleteObjects: 3.962700 ms)
+Unloading 7781 unused Assets / (22.7 MB). Loaded Objects now: 8549.
+Memory consumption went from 284.3 MB to 261.6 MB.
+Total: 10.749500 ms (FindLiveObjects: 0.806000 ms CreateObjectMapping: 0.360100 ms MarkObjects: 4.596600 ms  DeleteObjects: 4.985300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 406779.376829 seconds.
-  path: Assets/Materials/Explosive.mat
-  artifactKey: Guid(a5c219d552f2539409c9c21bc7088a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Explosive.mat using Guid(a5c219d552f2539409c9c21bc7088a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b94a78bccf7f40880bc2e1d38bf249e4') in 0.6267789 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 331
+  Time since last request: 589108.835421 seconds.
+  path: Assets/Prefabs/Ships/Base Enemy.prefab
+  artifactKey: Guid(1d2ef45447cebc340bff41adccfdcb8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Base Enemy.prefab using Guid(1d2ef45447cebc340bff41adccfdcb8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2735090c42eb493df613c064b689daf0') in 0.6813152 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 632
 
 ========================================================================
 Received Import Request.
-  Time since last request: 161.686608 seconds.
-  path: Assets/Materials/Explosive.mat
-  artifactKey: Guid(a5c219d552f2539409c9c21bc7088a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Explosive.mat using Guid(a5c219d552f2539409c9c21bc7088a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c4b382de2f0d781f0592c36309934e3') in 0.0470777 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 86.526982 seconds.
+  path: Assets/Prefabs/Ships/Enemy 1.prefab
+  artifactKey: Guid(4ae8697294ee91f42a89f575e94e18c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Enemy 1.prefab using Guid(4ae8697294ee91f42a89f575e94e18c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed88a3489b5fcd7fa4eb77cbb0646b62') in 0.0305217 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 612
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Materials/Laser Head 1.mat
-  artifactKey: Guid(23abc2926bf28244e87b73a0a375f713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Laser Head 1.mat using Guid(23abc2926bf28244e87b73a0a375f713) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '59d823cb22270916e0c7bdab08cf0869') in 0.0400254 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 3.542475 seconds.
+  path: Assets/Prefabs/Ships/Enemy 1.prefab
+  artifactKey: Guid(4ae8697294ee91f42a89f575e94e18c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Enemy 1.prefab using Guid(4ae8697294ee91f42a89f575e94e18c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '746ba51e43d8d251db66b80bb9d043d8') in 0.0272668 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 612
 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.393542 seconds.
-  path: Assets/Materials/Ship Destroy Head.mat
-  artifactKey: Guid(23abc2926bf28244e87b73a0a375f713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Ship Destroy Head.mat using Guid(23abc2926bf28244e87b73a0a375f713) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec8a6036fb086dee9012de5fd2b54af4') in 0.0131761 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 2.562114 seconds.
+  path: Assets/Prefabs/Ships/Enemy 1.prefab
+  artifactKey: Guid(4ae8697294ee91f42a89f575e94e18c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Enemy 1.prefab using Guid(4ae8697294ee91f42a89f575e94e18c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c3f3186abf164bec794f88953c0dba25') in 0.0285233 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 612
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.321885 seconds.
-  path: Assets/Imported Assets/StarSparrow/Textures/BonusContent/Mines/MineSample1_Blue.png
-  artifactKey: Guid(6f4ecb0f36aa22b4e93e4b434947cfa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/StarSparrow/Textures/BonusContent/Mines/MineSample1_Blue.png using Guid(6f4ecb0f36aa22b4e93e4b434947cfa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e64054b5a6120c1c11ff3edf82bcd6d7') in 0.0317904 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 3.754324 seconds.
+  path: Assets/Prefabs/Ships/Enemy 1.prefab
+  artifactKey: Guid(4ae8697294ee91f42a89f575e94e18c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Enemy 1.prefab using Guid(4ae8697294ee91f42a89f575e94e18c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '27e9d4dc5e1cba9100a347c437d2ca9d') in 0.0239398 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 612
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Imported Assets/StarSparrow/Textures/BonusContent/Mines/MineSample1_MetallicSmoothness.png
-  artifactKey: Guid(8d0f2071706729c4d95bb30b050bc137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/StarSparrow/Textures/BonusContent/Mines/MineSample1_MetallicSmoothness.png using Guid(8d0f2071706729c4d95bb30b050bc137) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f8792d1bd060b367d33291949ffd9f9') in 0.0205235 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 2.365888 seconds.
+  path: Assets/Prefabs/Ships/Enemy 1.prefab
+  artifactKey: Guid(4ae8697294ee91f42a89f575e94e18c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Enemy 1.prefab using Guid(4ae8697294ee91f42a89f575e94e18c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a03e204b9f099124fe398d9a1790e2b') in 0.0245724 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 612
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000097 seconds.
-  path: Assets/Imported Assets/TerrainSampleAssets/Textures/Heightmaps/Mountain03_Heightmap.tif
-  artifactKey: Guid(eb8981774e4509b4ba09dcceaf8814d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/TerrainSampleAssets/Textures/Heightmaps/Mountain03_Heightmap.tif using Guid(eb8981774e4509b4ba09dcceaf8814d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae7cc0a55cdaa790ec8ae7c82369aa40') in 0.0201019 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 3.573554 seconds.
+  path: Assets/Prefabs/Ships/Enemy 1.prefab
+  artifactKey: Guid(4ae8697294ee91f42a89f575e94e18c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Enemy 1.prefab using Guid(4ae8697294ee91f42a89f575e94e18c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb37528ca257b2a74c6dcaa2bd53f7b6') in 0.0256935 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 612
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Imported Assets/TerrainSampleAssets/Textures/Heightmaps/Mountain08_Heightmap.tif
-  artifactKey: Guid(d5428cdc2df49fc4a9aa5bbbcfcfe0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/TerrainSampleAssets/Textures/Heightmaps/Mountain08_Heightmap.tif using Guid(d5428cdc2df49fc4a9aa5bbbcfcfe0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '21e2740134a19899b6232919118d05cc') in 0.03441 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 4.585392 seconds.
+  path: Assets/Prefabs/Ships/Enemy 1.prefab
+  artifactKey: Guid(4ae8697294ee91f42a89f575e94e18c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Enemy 1.prefab using Guid(4ae8697294ee91f42a89f575e94e18c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1dbc6b3b218f9e3d7219054eecf7050f') in 0.0263872 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 612
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Imported Assets/TerrainSampleAssets/Textures/Terrain/Pebbles_B_Normal.tif
-  artifactKey: Guid(abaa3d4f433df074389559003412235d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/TerrainSampleAssets/Textures/Terrain/Pebbles_B_Normal.tif using Guid(abaa3d4f433df074389559003412235d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd7af955d9a28a29afe77602abd3f5f8') in 0.0281466 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 19.703981 seconds.
+  path: Assets/Prefabs/Ships/Enemy 2.prefab
+  artifactKey: Guid(243024ccfecc2b648bca4603e3055858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Enemy 2.prefab using Guid(243024ccfecc2b648bca4603e3055858) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c4d19fe7123acc6a7b151f5a17526ff7') in 0.0221811 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 450
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Imported Assets/TerrainSampleAssets/Textures/Terrain/Pebbles_C_BaseColor.tif
-  artifactKey: Guid(8e255f57d15705e488d4db5425239501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/TerrainSampleAssets/Textures/Terrain/Pebbles_C_BaseColor.tif using Guid(8e255f57d15705e488d4db5425239501) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '616f42b0f471865919033efe49f029d9') in 0.0411179 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 7.202367 seconds.
+  path: Assets/Prefabs/Ships/Enemy 2.prefab
+  artifactKey: Guid(243024ccfecc2b648bca4603e3055858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Enemy 2.prefab using Guid(243024ccfecc2b648bca4603e3055858) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '489e442c5b71e36b6db04ea9e6af847f') in 0.0458748 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 450
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Imported Assets/TerrainSampleAssets/Textures/Heightmaps/Mountain07_Heightmap.tif
-  artifactKey: Guid(ce420f179549a9c4f9a08a26260e8d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/TerrainSampleAssets/Textures/Heightmaps/Mountain07_Heightmap.tif using Guid(ce420f179549a9c4f9a08a26260e8d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66f8da39e67826f41914022f579e9285') in 0.0201203 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 3.757243 seconds.
+  path: Assets/Prefabs/Ships/Enemy 2.prefab
+  artifactKey: Guid(243024ccfecc2b648bca4603e3055858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Enemy 2.prefab using Guid(243024ccfecc2b648bca4603e3055858) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '21ecc49e7e8dee20599e15e264e38b10') in 0.0728876 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 450
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Imported Assets/StarSparrow/Textures/BonusContent/Mines/MineSample2_EmissionRed.png
-  artifactKey: Guid(86edf433314501c41b7b4916da943bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/StarSparrow/Textures/BonusContent/Mines/MineSample2_EmissionRed.png using Guid(86edf433314501c41b7b4916da943bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b52a79fa3d3c886b311dabeafacd55a') in 0.0179356 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 9.974169 seconds.
+  path: Assets/Prefabs/Ships/Enemy 3.prefab
+  artifactKey: Guid(b8eb449fc4b48fc468c25cc5ace8571b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Enemy 3.prefab using Guid(b8eb449fc4b48fc468c25cc5ace8571b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7418c27740cfcb3d1acaaad12bcdf404') in 0.0224941 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 600
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Imported Assets/TerrainSampleAssets/Textures/Terrain/Muddy_MaskMap.tif
-  artifactKey: Guid(69ac4ffc59a4b194c9f03bec38be51ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/TerrainSampleAssets/Textures/Terrain/Muddy_MaskMap.tif using Guid(69ac4ffc59a4b194c9f03bec38be51ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '099ef6377718ad280c6f53d21bafe750') in 0.0205704 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 2.568327 seconds.
+  path: Assets/Prefabs/Ships/Enemy 3.prefab
+  artifactKey: Guid(b8eb449fc4b48fc468c25cc5ace8571b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Enemy 3.prefab using Guid(b8eb449fc4b48fc468c25cc5ace8571b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a9561a7304eb90879b205c3fce97ecb') in 0.0242036 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 600
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Imported Assets/StarSparrow/Textures/BonusContent/Mines/MineSample2_Normal.png
-  artifactKey: Guid(69ef4596fd4f3034f91923605a279538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/StarSparrow/Textures/BonusContent/Mines/MineSample2_Normal.png using Guid(69ef4596fd4f3034f91923605a279538) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18ef5e885e16ed9c6826193f40cecf14') in 0.0181517 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 4.165742 seconds.
+  path: Assets/Prefabs/Ships/Enemy 3.prefab
+  artifactKey: Guid(b8eb449fc4b48fc468c25cc5ace8571b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Enemy 3.prefab using Guid(b8eb449fc4b48fc468c25cc5ace8571b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae6a62aafb08fd36b0c49eaab24479ab') in 0.0249365 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 600
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Imported Assets/TerrainSampleAssets/Textures/Heightmaps/Mountain04_Heightmap.tif
-  artifactKey: Guid(a1f4f845b9208d64a95cc6177a9b2abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/TerrainSampleAssets/Textures/Heightmaps/Mountain04_Heightmap.tif using Guid(a1f4f845b9208d64a95cc6177a9b2abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aaaa871534a134e94ef40b7aae9c4ba5') in 0.02412 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 9.237006 seconds.
+  path: Assets/Prefabs/Ships/Enemy 4.prefab
+  artifactKey: Guid(d2fb077e6a8857742ace0cb00fa9c9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Enemy 4.prefab using Guid(d2fb077e6a8857742ace0cb00fa9c9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '39313130d6b56b37cef093829221b5b9') in 0.0288611 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 456
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Imported Assets/TerrainSampleAssets/Textures/Details/Plant_MaskMap.tif
-  artifactKey: Guid(58f96e5085ad49449a678cbc76949e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/TerrainSampleAssets/Textures/Details/Plant_MaskMap.tif using Guid(58f96e5085ad49449a678cbc76949e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cba5f083ee0ddb91106ad0990899e786') in 0.0191905 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 4.366401 seconds.
+  path: Assets/Prefabs/Ships/Enemy 4.prefab
+  artifactKey: Guid(d2fb077e6a8857742ace0cb00fa9c9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Enemy 4.prefab using Guid(d2fb077e6a8857742ace0cb00fa9c9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6fbdc2c96fa61ba96e80ac0eab04984') in 0.0250696 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 456
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Imported Assets/StarSparrow/Textures/BonusContent/Mines/MineSample2_MetallicSmoothness.png
-  artifactKey: Guid(0ff802439110fec41b4c0bda29885e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/StarSparrow/Textures/BonusContent/Mines/MineSample2_MetallicSmoothness.png using Guid(0ff802439110fec41b4c0bda29885e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a6d2d03927076eeba687b5fdcff66dc') in 0.0151849 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 9.007800 seconds.
+  path: Assets/Prefabs/Ships/Enemy 4.prefab
+  artifactKey: Guid(d2fb077e6a8857742ace0cb00fa9c9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Enemy 4.prefab using Guid(d2fb077e6a8857742ace0cb00fa9c9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07ba18c376959017c8e5b7e9452d7364') in 0.0224104 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 456
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Imported Assets/StarSparrow/Textures/BonusContent/Mines/MineSample2_Brown.png
-  artifactKey: Guid(89444bc8e26f111479c9f9b288546a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/StarSparrow/Textures/BonusContent/Mines/MineSample2_Brown.png using Guid(89444bc8e26f111479c9f9b288546a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6da07e9973affb7eadf51b7267c37f7d') in 0.0178003 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 3.169635 seconds.
+  path: Assets/Prefabs/Ships/Enemy 4.prefab
+  artifactKey: Guid(d2fb077e6a8857742ace0cb00fa9c9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ships/Enemy 4.prefab using Guid(d2fb077e6a8857742ace0cb00fa9c9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '299e4b0329b8a9d64e99cb20b083ca95') in 0.0250606 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 456
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Imported Assets/TerrainSampleAssets/Textures/Details/Plant_Thickness.tif
-  artifactKey: Guid(eb0c8b2f7b0da9944ae8e4156f2ec349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/TerrainSampleAssets/Textures/Details/Plant_Thickness.tif using Guid(eb0c8b2f7b0da9944ae8e4156f2ec349) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f64b85b6a0030487b40ab9c31ecbac1b') in 0.0219146 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Imported Assets/TerrainSampleAssets/Textures/Terrain/Pebbles_B_BaseColor.tif
-  artifactKey: Guid(2dd80f1b9b10057439e2db179b557ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/TerrainSampleAssets/Textures/Terrain/Pebbles_B_BaseColor.tif using Guid(2dd80f1b9b10057439e2db179b557ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2364b3c7b1844ff9a32e7e177e238ebd') in 0.017048 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Imported Assets/TerrainSampleAssets/Textures/Heightmaps/Mountain09_Heightmap.tiff
-  artifactKey: Guid(c1873143642071347b9e3544696e5d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/TerrainSampleAssets/Textures/Heightmaps/Mountain09_Heightmap.tiff using Guid(c1873143642071347b9e3544696e5d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01ac4dc4cf51110ba062b9d65799f2d7') in 0.0244595 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Imported Assets/TerrainSampleAssets/Textures/Terrain/Muddy_Normal.tif
-  artifactKey: Guid(86f7d07dde38b154188fd60359df541e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/TerrainSampleAssets/Textures/Terrain/Muddy_Normal.tif using Guid(86f7d07dde38b154188fd60359df541e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '976eae51ba15dbbc9471748b1e4a3792') in 0.0232541 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Imported Assets/TerrainSampleAssets/Textures/Terrain/Pebbles_A_BaseColor.tif
-  artifactKey: Guid(5f61aa5f60d405a4b9f08becbe25d4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/TerrainSampleAssets/Textures/Terrain/Pebbles_A_BaseColor.tif using Guid(5f61aa5f60d405a4b9f08becbe25d4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd954f3266e4ef901233ccc8e2a7eb5e1') in 0.0203951 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Imported Assets/TerrainSampleAssets/Textures/Heightmaps/Plateau03_Heightmap.tif
-  artifactKey: Guid(116d48bc82e4c0a4683cbd79927b4596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/TerrainSampleAssets/Textures/Heightmaps/Plateau03_Heightmap.tif using Guid(116d48bc82e4c0a4683cbd79927b4596) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3050e6aa79605159ef448e1e4727e556') in 0.0209627 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Imported Assets/TerrainSampleAssets/Textures/Details/Plant_Normal.tif
-  artifactKey: Guid(bcd36bed575f11d42bc048f705b8b6a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/TerrainSampleAssets/Textures/Details/Plant_Normal.tif using Guid(bcd36bed575f11d42bc048f705b8b6a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '345f494c9f0bcb3704c6c20fd35c0372') in 0.0218811 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Imported Assets/TerrainSampleAssets/Textures/Heightmaps/Mountain01_Heightmap.tif
-  artifactKey: Guid(6cfb129191988d84eafe31848415a233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported Assets/TerrainSampleAssets/Textures/Heightmaps/Mountain01_Heightmap.tif using Guid(6cfb129191988d84eafe31848415a233) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f96ded7f1482bcdff3e319b77aaabad') in 0.0227438 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
