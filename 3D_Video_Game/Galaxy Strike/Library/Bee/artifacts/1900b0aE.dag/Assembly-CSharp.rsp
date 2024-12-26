@@ -433,6 +433,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
+"Assets/Imported Assets/Tree_Packs/URP_Tree_Pack/Scripts/LB_CameraMove.cs"
 "Assets/Scripts/CollisionHandler.cs"
 "Assets/Scripts/DialogueLines.cs"
 "Assets/Scripts/Enemy.cs"
