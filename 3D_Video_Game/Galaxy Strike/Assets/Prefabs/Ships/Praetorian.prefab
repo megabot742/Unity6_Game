@@ -50,7 +50,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 948180990168930087, guid: 1d2ef45447cebc340bff41adccfdcb8b, type: 3}
       propertyPath: hitPoints
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 948180990168930087, guid: 1d2ef45447cebc340bff41adccfdcb8b, type: 3}
       propertyPath: scoreValue
