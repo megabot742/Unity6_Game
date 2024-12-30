@@ -1,0 +1,651 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.24f1 (11fa355cd605) revision 1178165'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 16108 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.24f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Unity6_Game/3D_Video_Game/Royal Run
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49889
+-job-worker-count
+7
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: D:/Unity6_Game/3D_Video_Game/Royal Run
+D:/Unity6_Game/3D_Video_Game/Royal Run
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [17456]  Target information:
+
+Player connection [17456]  * "[IP] 192.168.2.4 [Port] 0 [Flags] 2 [Guid] 1075567872 [EditorId] 1075567872 [Version] 1048832 [Id] WindowsEditor(7,LEGION-Y7000P) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [17456] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [17456] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.24f1 (11fa355cd605)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity6_Game/3D_Video_Game/Royal Run/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4050 Laptop GPU (ID=0x28e1)
+    Vendor:   NVIDIA
+    VRAM:     5921 MB
+    Driver:   32.0.15.6636
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56704
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.003102 seconds.
+- Loaded All Assemblies, in  0.313 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 3621 ms
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.070 seconds
+Domain Reload Profiling: 4381ms
+	BeginReloadAssembly (105ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (129ms)
+		LoadAssemblies (104ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (126ms)
+			TypeCache.Refresh (125ms)
+				TypeCache.ScanAssembly (114ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (4070ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (4020ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3702ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (6ms)
+			ProcessInitializeOnLoadAttributes (181ms)
+			ProcessInitializeOnLoadMethodAttributes (125ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+TypeRef ResolutionScope not yet handled (234) for .IMergeView in image D:\Unity6_Game\3D_Video_Game\Royal Run\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/ApplicationDataPath.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/AssetMenu/AssetFilesFilterPatternsMenuBuilder.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/AssetMenu/AssetMenuItems.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/AssetMenu/AssetMenuOperations.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/AssetMenu/AssetOperations.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/AssetMenu/AssetsSelection.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/AssetMenu/Dialogs/CheckinDialog.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/AssetMenu/Dialogs/CheckinDialogOperations.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/AssetMenu/ProjectViewAssetSelection.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/AssetOverlays/AssetStatus.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/AssetOverlays/Cache/AssetStatusCache.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/AssetOverlays/Cache/BuildPathDictionary.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/AssetOverlays/Cache/LocalStatusCache.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/AssetOverlays/Cache/LockStatusCache.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/AssetOverlays/Cache/RemoteStatusCache.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/AssetOverlays/DrawAssetOverlay.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/AssetsUtils/AssetsPath.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/AssetsUtils/GetSelectedPaths.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/AssetsUtils/LoadAsset.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/AssetsUtils/Processor/AssetModificationProcessor.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/AssetsUtils/Processor/AssetPostprocessor.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/AssetsUtils/Processor/AssetsProcessor.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/AssetsUtils/Processor/PlasticAssetsProcessor.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/AssetsUtils/Processor/WorkspaceOperationsMonitor.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/AssetsUtils/ProjectPath.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/AssetsUtils/RefreshAsset.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/AssetsUtils/RepaintInspector.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/AssetsUtils/SaveAssets.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/AutoRefresh.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/BuildGetEventExtraInfoFunction.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/CheckWorkspaceTreeNodeStatus.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/CollabMigration/CloudProjectId.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/CollabMigration/MigrateCollabProject.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/CollabMigration/MigrationDialog.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/CollabMigration/MigrationProgressRender.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/CollabPlugin.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Configuration/AutoConfig.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Configuration/ChannelCertificateUiImpl.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Configuration/CloudEdition/Welcome/AutoLogin.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Configuration/CloudEdition/Welcome/CloudEditionWelcomeWindow.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Configuration/CloudEdition/Welcome/OrganizationPanel.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Configuration/CloudEdition/Welcome/SignInPanel.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Configuration/CloudEdition/Welcome/SignInWithEmailPanel.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Configuration/CloudEdition/Welcome/WaitingSignInPanel.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Configuration/ConfigurePartialWorkspace.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Configuration/CredentialsDialog.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Configuration/CredentialsUIImpl.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Configuration/EncryptionConfigurationDialog.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Configuration/MissingEncryptionPasswordPromptHandler.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Configuration/SSOCredentialsDialog.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Configuration/TeamEdition/TeamEditionConfigurationWindow.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Configuration/ToolConfig.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Configuration/WriteLogConfiguration.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Developer/CheckinProgress.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Developer/GenericProgress.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Developer/IncomingChangesNotifier.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Developer/ProgressOperationHandler.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Developer/UpdateProgress.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Developer/UpdateReport/UpdateReportDialog.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Developer/UpdateReport/UpdateReportLineListViewItem.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Developer/UpdateReport/UpdateReportListHeaderState.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Developer/UpdateReport/UpdateReportListView.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/DrawGuiModeSwitcher.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/EnumExtensions.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/FindWorkspace.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/GetRelativePath.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Gluon/CheckinProgress.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Gluon/IncomingChangesNotifier.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Gluon/ProgressOperationHandler.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Gluon/UpdateProgress.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Gluon/UpdateReport/ErrorListViewItem.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Gluon/UpdateReport/UpdateReportDialog.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Gluon/UpdateReport/UpdateReportListHeaderState.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Gluon/UpdateReport/UpdateReportListView.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Help/BuildFormattedHelp.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Help/DrawHelpPanel.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Help/ExternalLink.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Help/HelpData.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Help/HelpFormat.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Help/HelpLink.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Help/HelpLinkData.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Help/HelpPanel.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Help/TestingHelpData.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Hub/CommandLineArguments.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Hub/Operations/CreateWorkspace.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Hub/Operations/DownloadRepository.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Hub/Operations/OperationParams.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Hub/ParseArguments.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Hub/ProcessCommand.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Inspector/DrawInspectorOperations.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Inspector/InspectorAssetSelection.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/MetaPath.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/NewIncomingChanges.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/OrganizationsInformation.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/ParentWindow.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/PlasticApp.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/PlasticConnectionMonitor.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/PlasticMenuItem.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/PlasticNotification.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/PlasticPlugin.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/PlasticPluginIsEnabledPreference.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/PlasticProjectSettingsProvider.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/PlasticShutdown.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/PlasticWindow.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/ProjectWindow.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/QueryVisualElementsExtensions.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/SceneView/DrawSceneOperations.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/SwitchModeConfirmationDialog.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Tool/AuthToken.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Tool/BringWindowToFront.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Tool/FindTool.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Tool/IsExeAvailable.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Tool/LaunchInstaller.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Tool/LaunchTool.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Tool/ToolConstants.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/Avatar/ApplyCircleMask.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/Avatar/AvatarImages.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/Avatar/GetAvatar.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/BoolSetting.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/CloseWindowIfOpened.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/CooldownWindowDelayer.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/DockEditorWindow.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/DrawActionButton.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/DrawActionButtonWithMenu.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/DrawActionHelpBox.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/DrawActionToolbar.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/DrawSearchField.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/DrawSplitter.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/DrawTextBlockWithEndLink.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/DrawUserIcon.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/DropDownTextField.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/EditorDispatcher.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/EditorProgressBar.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/EditorProgressControls.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/EditorVersion.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/EditorWindowFocus.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/EnumPopupSetting.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/FindEditorWindow.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/GetPlasticShortcut.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/GUIActionRunner.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/GuiEnabled.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/HandleMenuItem.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/Images.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/MeasureMaxWidth.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/OverlayRect.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/PlasticDialog.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/PlasticSplitterGUILayout.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/Progress/DrawProgressForDialogs.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/Progress/DrawProgressForMigration.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/Progress/DrawProgressForOperations.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/Progress/DrawProgressForViews.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/Progress/OperationProgressData.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/Progress/ProgressControlsForDialogs.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/Progress/ProgressControlsForMigration.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/Progress/ProgressControlsForViews.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/RunModal.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/ScreenResolution.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/ShowWindow.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/SortOrderComparer.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/StatusBar/IncomingChangesNotification.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/StatusBar/NotificationBar.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/StatusBar/StatusBar.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/TabButton.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/Tree/DrawTreeViewEmptyState.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/Tree/DrawTreeViewItem.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/Tree/GetChangesOverlayIcon.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/Tree/ListViewItemIds.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/Tree/TableViewOperations.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/Tree/TreeHeaderColumns.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/Tree/TreeHeaderSettings.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/Tree/TreeViewItemIds.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/UIElements/LoadingSpinner.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/UIElements/ProgressControlsForDialogs.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/UIElements/UIElementsExtensions.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/UnityConstants.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/UnityEvents.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/UnityMenuItem.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/UnityPlasticGuiMessage.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/UnityPlasticTimer.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/UnityStyles.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/UnityThreadWaiter.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UnityConfigurationChecker.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UVCPackageVersion.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/VCSPlugin.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Branch/BranchesListHeaderState.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Branch/BranchesListView.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Branch/BranchesSelection.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Branch/BranchesTab.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Branch/BranchesViewMenu.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Branch/BranchListViewItem.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Branch/Dialogs/CreateBranchDialog.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Branch/Dialogs/DeleteBranchDialog.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Branch/Dialogs/RenameBranchDialog.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Changesets/ChangesetListViewItem.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Changesets/ChangesetsListHeaderState.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Changesets/ChangesetsListView.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Changesets/ChangesetsSelection.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Changesets/ChangesetsTab.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Changesets/ChangesetsTab_Operations.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Changesets/ChangesetsViewMenu.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Changesets/DateFilter.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Changesets/LaunchDiffOperations.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/ConfirmContinueWithPendingChangesDialog.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/CreateWorkspace/CreateWorkspaceView.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/CreateWorkspace/CreateWorkspaceViewState.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/CreateWorkspace/Dialogs/CreateRepositoryDialog.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/CreateWorkspace/Dialogs/RepositoriesListHeaderState.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/CreateWorkspace/Dialogs/RepositoriesListView.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/CreateWorkspace/Dialogs/RepositoryExplorerDialog.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/CreateWorkspace/Dialogs/RepositoryListViewItem.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/CreateWorkspace/DrawCreateWorkspaceView.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/CreateWorkspace/PerformInitialCheckin.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/CreateWorkspace/ValidRepositoryName.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Diff/ChangeCategoryTreeViewItem.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Diff/ClientDiffTreeViewItem.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Diff/Dialogs/GetRestorePathDialog.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Diff/DiffPanel.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Diff/DiffSelection.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Diff/DiffTreeView.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Diff/DiffTreeViewMenu.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Diff/GetClientDiffInfos.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Diff/MergeCategoryTreeViewItem.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Diff/UnityDiffTree.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/DownloadPlasticExeDialog.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/FileSystemOperation.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/History/HistoryListHeaderState.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/History/HistoryListView.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/History/HistoryListViewItem.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/History/HistoryListViewMenu.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/History/HistorySelection.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/History/HistoryTab.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/History/SaveAction.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/IncomingChanges/Developer/ChangeCategoryTreeViewItem.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/IncomingChanges/Developer/ChangeTreeViewItem.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/IncomingChanges/Developer/DirectoryConflicts/ConflictResolutionState.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/IncomingChanges/Developer/DirectoryConflicts/DrawDirectoryResolutionPanel.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/IncomingChanges/Developer/IncomingChangesSelection.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/IncomingChanges/Developer/IncomingChangesTab.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/IncomingChanges/Developer/IncomingChangesTreeHeaderState.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/IncomingChanges/Developer/IncomingChangesTreeView.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/IncomingChanges/Developer/IncomingChangesViewMenu.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/IncomingChanges/Developer/IsCurrent.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/IncomingChanges/Developer/IsResolved.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/IncomingChanges/Developer/UnityIncomingChangesTree.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/IncomingChanges/DrawIncomingChangesOverview.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/IncomingChanges/Gluon/ChangeCategoryTreeViewItem.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/IncomingChanges/Gluon/ChangeTreeViewItem.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/IncomingChanges/Gluon/Errors/ErrorListViewItem.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/IncomingChanges/Gluon/Errors/ErrorsListHeaderState.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/IncomingChanges/Gluon/Errors/ErrorsListView.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/IncomingChanges/Gluon/IncomingChangesSelection.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/IncomingChanges/Gluon/IncomingChangesTab.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/IncomingChanges/Gluon/IncomingChangesTreeHeaderState.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/IncomingChanges/Gluon/IncomingChangesTreeView.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/IncomingChanges/Gluon/IncomingChangesViewMenu.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/IncomingChanges/Gluon/UnityIncomingChangesTree.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/IncomingChanges/IIncomingChangesTab.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Locks/DrawLocksListViewItem.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Locks/LocksListHeaderState.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Locks/LocksListView.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Locks/LocksListViewItem.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Locks/LocksSelector.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Locks/LocksTab.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Locks/LocksViewMenu.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/PendingChanges/ChangeCategoryTreeViewItem.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/PendingChanges/Changelists/ChangelistMenu.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/PendingChanges/Changelists/MoveToChangelistMenuBuilder.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/PendingChanges/ChangelistTreeViewItem.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/PendingChanges/ChangeTreeViewItem.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/PendingChanges/Dialogs/CheckinConflictsDialog.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/PendingChanges/Dialogs/CreateChangelistDialog.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/PendingChanges/Dialogs/DependenciesDialog.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/PendingChanges/Dialogs/EmptyCheckinMessageDialog.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/PendingChanges/Dialogs/FilterRulesConfirmationDialog.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/PendingChanges/Dialogs/LaunchCheckinConflictsDialog.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/PendingChanges/Dialogs/LaunchDependenciesDialog.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/PendingChanges/DrawCommentTextArea.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/PendingChanges/FilesFilterPatternsMenuBuilder.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/PendingChanges/PendingChangesMultiColumnHeader.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/PendingChanges/PendingChangesSelection.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/PendingChanges/PendingChangesTab.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/PendingChanges/PendingChangesTab_Operations.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/PendingChanges/PendingChangesTreeHeaderState.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/PendingChanges/PendingChangesTreeView.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/PendingChanges/PendingChangesViewMenu.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/PendingChanges/PendingChangesViewPendingChangeMenu.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/PendingChanges/PendingMergeLinks/MergeLinkListViewItem.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/PendingChanges/PendingMergeLinks/MergeLinksListView.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/PendingChanges/UnityPendingChangesTree.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Welcome/DownloadAndInstallOperation.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Welcome/GetInstallerTmpFileName.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Welcome/MacOSConfigWorkaround.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Welcome/WelcomeView.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/ViewSwitcher.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/VisualElementExtensions.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/WebApi/ChangesetFromCollabCommitResponse.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/WebApi/CredentialsResponse.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/WebApi/CurrentUserAdminCheckResponse.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/WebApi/IsCollabProjectMigratedResponse.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/WebApi/OrganizationCredentials.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/WebApi/SubscriptionDetailsResponse.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/WebApi/TokenExchangeResponse.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/WebApi/WebRestApiClient.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/WorkspaceWindow.cs'
+Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Toolbar/ToolbarButton.cs'
+Unloading broken assembly Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll, this assembly can cause crashes in the runtime
+- Loaded All Assemblies, in  2.281 seconds
+Refreshing native plugins compatible for Editor in 1.67 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.623 seconds
+Domain Reload Profiling: 3902ms
+	BeginReloadAssembly (670ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (64ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (1464ms)
+		LoadAssemblies (1208ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (546ms)
+			TypeCache.Refresh (406ms)
+				TypeCache.ScanAssembly (381ms)
+			BuildScriptInfoCaches (121ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1625ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1120ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (47ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (130ms)
+			ProcessInitializeOnLoadAttributes (811ms)
+			ProcessInitializeOnLoadMethodAttributes (113ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 198 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5909 unused Assets / (4.3 MB). Loaded Objects now: 6677.
+Memory consumption went from 184.0 MB to 179.8 MB.
+Total: 11.579900 ms (FindLiveObjects: 0.596400 ms CreateObjectMapping: 0.592400 ms MarkObjects: 7.652900 ms  DeleteObjects: 2.736600 ms)
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.964 seconds
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.126 seconds
+Domain Reload Profiling: 2088ms
+	BeginReloadAssembly (275ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (67ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (592ms)
+		LoadAssemblies (451ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (280ms)
+			TypeCache.Refresh (136ms)
+				TypeCache.ScanAssembly (121ms)
+			BuildScriptInfoCaches (128ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1127ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (751ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (555ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 1.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5905 unused Assets / (4.4 MB). Loaded Objects now: 6692.
+Memory consumption went from 166.3 MB to 161.9 MB.
+Total: 10.158600 ms (FindLiveObjects: 0.978700 ms CreateObjectMapping: 0.413300 ms MarkObjects: 6.209800 ms  DeleteObjects: 2.555600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 157900.645103 seconds.
+  path: Assets/Readme.asset
+  artifactKey: Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Readme.asset using Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '50ea5ad2cda8720781b90d71f311d8d1') in 0.05153 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5896 unused Assets / (4.1 MB). Loaded Objects now: 6693.
+Memory consumption went from 165.4 MB to 161.3 MB.
+Total: 11.480100 ms (FindLiveObjects: 0.916400 ms CreateObjectMapping: 0.755100 ms MarkObjects: 7.641800 ms  DeleteObjects: 2.164900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.697 seconds
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.779 seconds
+Domain Reload Profiling: 1477ms
+	BeginReloadAssembly (195ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (426ms)
+		LoadAssemblies (348ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (178ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (157ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (779ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (509ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (370ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5903 unused Assets / (4.0 MB). Loaded Objects now: 6695.
+Memory consumption went from 165.2 MB to 161.2 MB.
+Total: 7.508700 ms (FindLiveObjects: 0.647200 ms CreateObjectMapping: 0.352800 ms MarkObjects: 4.794500 ms  DeleteObjects: 1.712600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 792.938006 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '198c69655ecfbf15cfbc8c56861e7e72') in 0.1721219 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Settings/Mobile_RPAsset.asset
+  artifactKey: Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/Mobile_RPAsset.asset using Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '90a678e0f20c3b9080180a2bc4b46bb0') in 0.0750879 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Settings/PC_RPAsset.asset
+  artifactKey: Guid(4b83569d67af61e458304325a23e5dfd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/PC_RPAsset.asset using Guid(4b83569d67af61e458304325a23e5dfd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '41148e695bb31eff06768d07f27ba617') in 0.0249701 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Settings/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c56685cd9eaf40a4c957cecb3b50d9e9') in 0.0411748 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
