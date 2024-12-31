@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Game
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 332}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -46,7 +46,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 989
-  m_MinSize: {x: 875, y: 332}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 36
@@ -118,7 +118,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 27871
+  controlID: 16
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 27872
+  controlID: 17
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -170,7 +170,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 27873
+  controlID: 18
   draggingID: 0
 --- !u!114 &8
 MonoBehaviour:
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 27942
+  controlID: 73
   draggingID: 0
 --- !u!114 &10
 MonoBehaviour:
@@ -244,8 +244,8 @@ MonoBehaviour:
     y: 0
     width: 221
     height: 242
-  m_MinSize: {x: 201, y: 226}
-  m_MaxSize: {x: 4001, y: 4026}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -299,8 +299,8 @@ MonoBehaviour:
     y: 0
     width: 344
     height: 933
-  m_MinSize: {x: 276, y: 76}
-  m_MaxSize: {x: 4001, y: 4026}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -1114,7 +1114,7 @@ MonoBehaviour:
   m_Position:
     m_Target: {x: 134.02672, y: 33.2192, z: 154.46031}
     speed: 2
-    m_Value: {x: 26.701494, y: 63.49258, z: -34.972958}
+    m_Value: {x: 134.02672, y: 33.2192, z: 154.46031}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1162,11 +1162,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.16998975, y: 0.046080947, z: -0.008145534, w: 0.9844348}
     speed: 2
-    m_Value: {x: 0.20029233, y: -0.5239653, z: 0.12800646, w: 0.81789833}
+    m_Value: {x: 0.16997291, y: 0.046076383, z: -0.008144728, w: 0.9843373}
   m_Size:
     m_Target: 0.8660254
     speed: 2
-    m_Value: 28.467688
+    m_Value: 0.8660254
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1236,9 +1236,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 48bd0000
       m_LastClickedID: 0
-      m_ExpandedIDs: 2af2ffffe0faffff8cc50000
+      m_ExpandedIDs: e0faffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1310,7 +1310,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs/Enemy Waves
+    - Assets/Scripts
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1320,16 +1320,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 77
   m_LastFolders:
-  - Assets/Prefabs/Enemy Waves
+  - Assets/Scripts
   m_LastFoldersGridSize: 77
   m_LastProjectPath: D:\Unity6_Game\3D_Video_Game\Galaxy Strike
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 120}
-    m_SelectedIDs: bcd40000
-    m_LastClickedID: 54460
-    m_ExpandedIDs: 0000000032d4000034d4000036d4000038d400003ad400003cd4000000ca9a3b
+    scrollPos: {x: 0, y: 160}
+    m_SelectedIDs: 3ae40000
+    m_LastClickedID: 58426
+    m_ExpandedIDs: 000000004ce300004ee3000050e3000052e3000054e3000036e4000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1358,7 +1358,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000032d4000034d4000036d4000038d400003cd4000000ca9a3b
+    m_ExpandedIDs: 000000004ce300004ee3000050e3000052e3000054e30000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1495,7 +1495,7 @@ MonoBehaviour:
     m_IsLocked: 0
   m_SequenceHierarchy: {fileID: 0}
   m_SequencePath:
-    m_SelectionRoot: 155718
+    m_SelectionRoot: 0
     m_SubElements: []
 --- !u!114 &19
 MonoBehaviour:

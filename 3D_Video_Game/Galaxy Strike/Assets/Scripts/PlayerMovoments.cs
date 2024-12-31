@@ -33,7 +33,7 @@ public class PlayerMovoments : MonoBehaviour
         float yOffset = movement.y * controlSpeed * Time.deltaTime;
         float rawYPos = transform.localPosition.y + yOffset;
         float clampedYPos = Mathf.Clamp(rawYPos, -yClampRange, yClampRange);
-        ; transform.localPosition = new Vector3(clampedXPos, clampedYPos , 0f);
+        transform.localPosition = new Vector3(clampedXPos, clampedYPos , 0f);
     }
     void ProcessRotation()
     {
