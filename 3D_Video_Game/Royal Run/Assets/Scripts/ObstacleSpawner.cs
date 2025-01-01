@@ -4,20 +4,23 @@ using UnityEngine;
 public class ObstacleSpawner : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    [SerializeField] GameObject obstaclePrefab;
-    [SerializeField] float timeSpawn = 2f;
-     int obstaclesSpawned = 0;
+    [SerializeField] GameObject[] obstaclePrefabs;
+    [SerializeField] float obstacleSpawnTime = 2f;
+    [SerializeField] Transform obstacleParent;
+    [SerializeField] float spawnWidth = 4f;
+    [SerializeField] bool isSpawn = true;
     void Start()
     {
        StartCoroutine(SpawnObstacles());
     }
     IEnumerator SpawnObstacles()
     {
-        while (obstaclesSpawned < 10)
+        while (isSpawn)
         {
-            Instantiate(obstaclePrefab, transform.position, Quaternion.identity);
-            obstaclesSpawned++;
-            yield return new WaitForSeconds(timeSpawn);
+            GameObject obstaclePrefab = obstaclePrefabs[Random.Range(0, obstaclePrefabs.Length)];
+            Vector3 spawnPosition = new Vector3(Random.Range(-spawnWidth, spawnWidth),transform.position.y,transform.position.z);
+            Instantiate(obstaclePrefab, spawnPosition, Random.rotation, obstacleParent);
+            yield return new WaitForSeconds(obstacleSpawnTime);
         }
         
     }
