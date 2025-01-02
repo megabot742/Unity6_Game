@@ -1,0 +1,1310 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.24f1 (11fa355cd605) revision 1178165'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 16108 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.24f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/Unity6_Game/3D_Video_Game/Royal Run
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+62975
+-job-worker-count
+7
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: D:/Unity6_Game/3D_Video_Game/Royal Run
+D:/Unity6_Game/3D_Video_Game/Royal Run
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [25844]  Target information:
+
+Player connection [25844]  * "[IP] 192.168.2.4 [Port] 0 [Flags] 2 [Guid] 918544411 [EditorId] 918544411 [Version] 1048832 [Id] WindowsEditor(7,LEGION-Y7000P) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [25844] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [25844] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.24f1 (11fa355cd605)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity6_Game/3D_Video_Game/Royal Run/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4050 Laptop GPU (ID=0x28e1)
+    Vendor:   NVIDIA
+    VRAM:     5921 MB
+    Driver:   32.0.15.6636
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56976
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.003891 seconds.
+- Loaded All Assemblies, in  0.333 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 189 ms
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.502 seconds
+Domain Reload Profiling: 833ms
+	BeginReloadAssembly (120ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (132ms)
+		LoadAssemblies (120ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (127ms)
+			TypeCache.Refresh (126ms)
+				TypeCache.ScanAssembly (115ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (502ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (468ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (260ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (134ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.805 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.684 seconds
+Domain Reload Profiling: 1486ms
+	BeginReloadAssembly (323ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (413ms)
+		LoadAssemblies (288ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (203ms)
+			TypeCache.Refresh (141ms)
+				TypeCache.ScanAssembly (126ms)
+			BuildScriptInfoCaches (52ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (684ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (487ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (355ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 198 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5910 unused Assets / (4.1 MB). Loaded Objects now: 6680.
+Memory consumption went from 180.8 MB to 176.7 MB.
+Total: 5.681900 ms (FindLiveObjects: 0.478700 ms CreateObjectMapping: 0.275100 ms MarkObjects: 3.610300 ms  DeleteObjects: 1.316300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 506866.288618 seconds.
+  path: Assets/Prefabs/Obstacle/Base Obstacle Variant.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Base Obstacle Variant.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18850cce195793d27a5de88bbc70b8fa') in 0.4140159 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.038544 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6623e0952eab0551de1fbce62a480fee') in 0.0441325 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.652237 seconds.
+  path: Assets/Prefabs/Obstacle/Chest.prefab
+  artifactKey: Guid(762a298402b7f854fb470e69b6136235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Chest.prefab using Guid(762a298402b7f854fb470e69b6136235) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e7f91bcc77ddceb2ca4743cc91617e0') in 0.0191229 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 79.962665 seconds.
+  path: Assets/Prefabs/Obstacle/Chest.prefab
+  artifactKey: Guid(762a298402b7f854fb470e69b6136235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Chest.prefab using Guid(762a298402b7f854fb470e69b6136235) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6fa07f24d98bbeb61379ae553028e3f8') in 0.0598989 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.634012 seconds.
+  path: Assets/Prefabs/Obstacle/Chest.prefab
+  artifactKey: Guid(762a298402b7f854fb470e69b6136235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Chest.prefab using Guid(762a298402b7f854fb470e69b6136235) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bab93db0f31118062cd9bf0ddb5786b2') in 0.0270256 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
+
+========================================================================
+Received Import Request.
+  Time since last request: 79.354118 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '077c6332ada92973c30cc9dc0a7d3255') in 0.0121714 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.573885 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0536de72017660539754c434f1b443d0') in 0.0098875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.444329 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf865315725ac32f4f59c5160c74b74f') in 0.0131373 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.257991 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '11a8f78faa047c8d3e9544ad7a3b2b0e') in 0.0262158 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.451909 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b713b02dde9db7538462ef3b432298d') in 0.0090251 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.021498 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b032cf5c6a4a2abc44859ffe48ff3c58') in 0.0093356 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.807102 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '011989695a1ab4a8005bfd552ed370b1') in 0.0107386 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.700906 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca6c22de5fcb6b9fc8d00f558d344d75') in 0.008857 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.423301 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e6217e6253dbbb4273301de026ae75ce') in 0.0370242 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.938677 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2578e12b2f4e6d8f088516e040eac4ab') in 0.0108725 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.758712 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f2850ab3105d6fac18c1894364d5d019') in 0.0120058 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.455905 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5fd35c640cf6669017ceade2da1ed534') in 0.0112506 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.643846 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f766603cc0a407c3de06ba007f4be34c') in 0.0091138 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.000130 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba993e4b161f182507a5da78e4f4e1b5') in 0.0088612 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.613702 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67ebbc6a61c31e1a707e48ef2d29dfb1') in 0.0097115 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.789105 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e4859a887058414d06c27f78f822235') in 0.0096447 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.797738 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a321e8b0a572194eaa57f914627d117') in 0.0107386 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.596074 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '14041224f63634ffe4bc62fa2bca459f') in 0.0166446 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.081129 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c89b87ddbe2125fa93bfd34c772d315') in 0.0194693 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.324994 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61f470888cd915f2676b8477bce27568') in 0.0096441 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.813042 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e1b2bbfdaab81c5bd522a2f943ac4d91') in 0.054924 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.335590 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '56639986252a053cae880509fcc53e86') in 0.0137276 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.374978 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49232a38d926bad4e755a0103a659c4b') in 0.01059 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.382719 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '115847188b8c4642adcb33d2c6f6577a') in 0.0086792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.928633 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db37ec4d55066b512e74f39396799592') in 0.0092672 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.232582 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0143ff7e8953e20f1e82837b71caaa53') in 0.0178042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.831939 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43c73a935ec1b36342cc425b354a6d32') in 0.0101977 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.249511 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db1aeecb67cb8211204fe6984eb690ed') in 0.0213566 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.674717 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f22751515a872825111bf3a476438929') in 0.0708598 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.898855 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2975609b00d3de11477d8f677bb6d1f6') in 0.053621 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.525804 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '164c686b217582c669ad93bd36a7916c') in 0.0589379 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.676796 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a1a2a44fe959825e39ab0eb63e297c79') in 0.0205616 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.837808 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb4dcc13330e57d5e9c7d25baa6a9582') in 0.0290582 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.996292 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '26fedd7a51470d359d9b8b81a36f806d') in 0.0371838 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.466538 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c7a2c088846ab24a503a754704678ce') in 0.0352969 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.966069 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '205808365c7d8dcbf5cd242a3809a41a') in 0.0078806 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.196673 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eefd45dddf156ccb76e67d6ae1509ab0') in 0.0102593 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.202342 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a1f50643e1d94823e81fd68f92892e9') in 0.0256338 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.559124 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8bbc469d990c9359c6f7a01486fc4007') in 0.0211834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.580449 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d7e99e1ba8fe71a97c995f81dd28a93') in 0.0093787 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.992184 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '502fdebb683495783ffe734a411aac07') in 0.0094956 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.803119 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa8c64e8b9f4431b733d207aab353234') in 0.0117227 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.801836 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '50fb99e8b7d579fd65cfa42855ddefc0') in 0.053616 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.747978 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25f5ebd2cbaa8fbf83043267865544b9') in 0.0081829 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.254594 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e62fbdf99265fb16fe3bec664b03b1c7') in 0.014485 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.063491 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5160292ebaf9144ca6de9c1de05da84a') in 0.0104067 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.362290 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a413a866a5b6ccd91ed546077aef3d2') in 0.045781 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.528690 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e741da652c7ddcd5693d11404f4c726') in 0.008739 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.985787 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe528e2277a1a06fc8c1567e75dc89ce') in 0.0078503 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.804891 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4225f311383b2f5349216f370d424c1d') in 0.0082992 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.801099 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '22c0112f8f2dd0d89b43caa64f285d76') in 0.0087955 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.204347 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ddd09f03f7efb11fe48369243133deaf') in 0.0398232 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.823856 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3c4e6574efd4aadf5a9697b8434b9941') in 0.0095062 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.909835 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9dd47ffed9cc0c99e38e9cc6f4cd086f') in 0.0103512 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.759502 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e01d8dba042a483b1c8f516f1950694') in 0.0110446 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.903895 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e117ce46722ae377e6d6d3ad7e7eb157') in 0.0209192 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.231649 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '59a5cb8376ce7637962834acc0895064') in 0.0224934 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.399637 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01a34b84ecc5e6c3b2dd3a9b2a90966f') in 0.0238593 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.869887 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bdac50d1277d7cfc376d7b83f311e5f5') in 0.0638039 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.807223 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c2a44d2dc121712802bdb4760e58659') in 0.0212531 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.868376 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6004ce8e2527a7f26cf4769132678822') in 0.0218977 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.620838 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c5b7ef42e279fec2dfe06f02e4e977f4') in 0.016045 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.325977 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '83afd7c224b2b8be82430b01ac349733') in 0.0093915 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.861236 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90612c11647b333dcf6dcedf0f9fa916') in 0.0097511 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.431782 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '273882108587f65cf5db87a0b9f3e40e') in 0.0112947 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.187817 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b2e4d5cc0e0f9834e9a20a57c1e5648c') in 0.0095291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.610749 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f67c15fe6d6a1e4aacf6dc1734737ee9') in 0.0531571 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.949512 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b981308f03aeea53e55f79c77e3df67b') in 0.0466306 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.760812 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7fc68ef72fa9a50e17a68a20ffd2445') in 0.0080282 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.619409 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f9245660b38fbb8ec220862cfcf9d0d') in 0.0105519 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.627744 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cfd3a06f98a6558f8862873fb3bb98c5') in 0.0166346 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.765819 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '653ea167a86d7fba0171678898954c9b') in 0.0086516 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.050306 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af89976b3a0adefc521ebe986b32d5c4') in 0.0082871 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.681867 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c179e95247d90bbd8a32656faec4c90') in 0.0119587 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.143789 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '52a1e13f6159e8b4bce0b4f880197f45') in 0.0105914 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.348235 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '732e7f4afbe822e9900c575aea7d72f7') in 0.0081303 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.285214 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c03a9cd9b7c19731b3ce2a3fe611f75f') in 0.0096674 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.572558 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bec762aff42ea6ae989873d95aeaf9ef') in 0.0095817 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.599636 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0dd9adcd5bb781b4fad9bcc753992628') in 0.0102737 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.797917 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '828500ad9b97a7f004095ceb2953dda3') in 0.0091474 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.783615 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3fc482d70fb42108b146c6c2d338b20f') in 0.0265218 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.565064 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e4d59157dd7346312296833612758ea') in 0.0087673 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.193001 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '83c8937f696674505c9bf3e73b77d62e') in 0.0083043 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.601062 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bff3f1a96f3e76d390a119155e6d4427') in 0.0100309 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.202480 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a6df3b5d3c4fbf30cd7c97393bd54a16') in 0.0088728 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.986304 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e341ef8347482178781bf14d6b55aa60') in 0.0107351 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.985952 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab6b4a2138a2fa09356f31e690c7c379') in 0.0104043 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.384060 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f522d43bc274d7debf92f4e04e7a3e1f') in 0.0364359 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.482392 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92c43a1c27e229b33ff9453ad2d6df3c') in 0.0087547 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.426570 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '23793d3e8aa2362e023ea90544fecb43') in 0.0095175 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.641357 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '30dabf926a968d15f8492a936a11abe3') in 0.0101533 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.390374 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ac350b5786027cf1290a35df4fd56ff') in 0.0099204 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.038104 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b392a90aacb627738c0352c9e53193a') in 0.0413101 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.770627 seconds.
+  path: Assets/Prefabs/Obstacle/Cannon.prefab
+  artifactKey: Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle/Cannon.prefab using Guid(a2e446a040d763147a60c3d9db79122e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '12dea0c33ab3e8cb67e0df547666f8dc') in 0.0442262 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
+
+========================================================================
+Received Import Request.
+  Time since last request: 455.031272 seconds.
+  path: Assets/Prefabs/Fence.prefab
+  artifactKey: Guid(7317710a31093244ebd45adb32ba1f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Fence.prefab using Guid(7317710a31093244ebd45adb32ba1f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e6d7f12d5cf1504c497ef5ed6f79264d') in 0.0273826 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.097895 seconds.
+  path: Assets/Prefabs/Falling Obstacle
+  artifactKey: Guid(0951066a188039240a47e8abbd2cb735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Falling Obstacle using Guid(0951066a188039240a47e8abbd2cb735) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9f465e27de129a40fde8b3fa0f06b7b9') in 0.0005519 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5901 unused Assets / (3.5 MB). Loaded Objects now: 6833.
+Memory consumption went from 164.8 MB to 161.2 MB.
+Total: 13.408800 ms (FindLiveObjects: 0.599600 ms CreateObjectMapping: 0.330600 ms MarkObjects: 10.572600 ms  DeleteObjects: 1.904300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 29.494194 seconds.
+  path: Assets/Scripts/Chunk.cs
+  artifactKey: Guid(8fbe3127c4af8774881a236e76cf4726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Chunk.cs using Guid(8fbe3127c4af8774881a236e76cf4726) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f704f5327b1525c21d4e7e86fecd7ab') in 0.0057542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.975 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.843 seconds
+Domain Reload Profiling: 1818ms
+	BeginReloadAssembly (303ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (23ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (79ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (551ms)
+		LoadAssemblies (448ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (254ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (232ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (844ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (560ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (429ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5907 unused Assets / (3.8 MB). Loaded Objects now: 6727.
+Memory consumption went from 174.6 MB to 170.7 MB.
+Total: 10.000700 ms (FindLiveObjects: 0.848100 ms CreateObjectMapping: 0.443900 ms MarkObjects: 6.670900 ms  DeleteObjects: 2.036200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 20.564070 seconds.
+  path: Assets/Prefabs/Chunk Prefab.prefab
+  artifactKey: Guid(c4f249894f3e068459ff31bf9434456c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk Prefab.prefab using Guid(c4f249894f3e068459ff31bf9434456c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c08b311aede4ea162c4914439aa1df50') in 0.3970289 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 51
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.873 seconds
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.783 seconds
+Domain Reload Profiling: 1657ms
+	BeginReloadAssembly (304ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (28ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (81ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (476ms)
+		LoadAssemblies (432ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (189ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (171ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (783ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (531ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (409ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5908 unused Assets / (4.0 MB). Loaded Objects now: 6749.
+Memory consumption went from 177.1 MB to 173.1 MB.
+Total: 5.479300 ms (FindLiveObjects: 0.430500 ms CreateObjectMapping: 0.261000 ms MarkObjects: 3.432400 ms  DeleteObjects: 1.354300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 604.094515 seconds.
+  path: Assets/Prefabs/Chunk Prefab.prefab
+  artifactKey: Guid(c4f249894f3e068459ff31bf9434456c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk Prefab.prefab using Guid(c4f249894f3e068459ff31bf9434456c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6be9702b9cb3b25c19ae3f857f23a751') in 0.4737986 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 51
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.951183 seconds.
+  path: Assets/Prefabs/Chunk Prefab.prefab
+  artifactKey: Guid(c4f249894f3e068459ff31bf9434456c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk Prefab.prefab using Guid(c4f249894f3e068459ff31bf9434456c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '77f65acdc77971d22b12fb928ad9142b') in 0.0152649 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 72
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.870 seconds
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.089 seconds
+Domain Reload Profiling: 1961ms
+	BeginReloadAssembly (293ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (26ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (84ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (502ms)
+		LoadAssemblies (372ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (260ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (233ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1089ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (707ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (517ms)
+			ProcessInitializeOnLoadMethodAttributes (69ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5908 unused Assets / (3.3 MB). Loaded Objects now: 6771.
+Memory consumption went from 181.2 MB to 177.9 MB.
+Total: 7.635700 ms (FindLiveObjects: 0.478800 ms CreateObjectMapping: 0.324800 ms MarkObjects: 4.955000 ms  DeleteObjects: 1.875700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 110.834898 seconds.
+  path: Assets/Prefabs/Chunk Prefab.prefab
+  artifactKey: Guid(c4f249894f3e068459ff31bf9434456c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk Prefab.prefab using Guid(c4f249894f3e068459ff31bf9434456c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'df9d3187df22f802679c51e292e694e0') in 0.4307423 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 73
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.142655 seconds.
+  path: Assets/Prefabs/Chunk Prefab.prefab
+  artifactKey: Guid(c4f249894f3e068459ff31bf9434456c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk Prefab.prefab using Guid(c4f249894f3e068459ff31bf9434456c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '805d830329263d1172cd64fefc5140fd') in 0.0183276 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 73
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.796803 seconds.
+  path: Assets/Prefabs/Chunk Prefab.prefab
+  artifactKey: Guid(c4f249894f3e068459ff31bf9434456c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk Prefab.prefab using Guid(c4f249894f3e068459ff31bf9434456c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ffbc56f1b30ec1182eaf09203c92021f') in 0.010237 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 73
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.396445 seconds.
+  path: Assets/Prefabs/Chunk Prefab.prefab
+  artifactKey: Guid(c4f249894f3e068459ff31bf9434456c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk Prefab.prefab using Guid(c4f249894f3e068459ff31bf9434456c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8db4dca2da6727481388dd44a663bf68') in 0.0130825 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 73
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.183613 seconds.
+  path: Assets/Prefabs/Chunk Prefab.prefab
+  artifactKey: Guid(c4f249894f3e068459ff31bf9434456c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk Prefab.prefab using Guid(c4f249894f3e068459ff31bf9434456c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f0b15c76b38a56ec443ee4720591e9da') in 0.0131863 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 73
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.994587 seconds.
+  path: Assets/Prefabs/Chunk Prefab.prefab
+  artifactKey: Guid(c4f249894f3e068459ff31bf9434456c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk Prefab.prefab using Guid(c4f249894f3e068459ff31bf9434456c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9adbcdf19a1cf76e7432e72359f6b389') in 0.0101405 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 73
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.294673 seconds.
+  path: Assets/Prefabs/Chunk Prefab.prefab
+  artifactKey: Guid(c4f249894f3e068459ff31bf9434456c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk Prefab.prefab using Guid(c4f249894f3e068459ff31bf9434456c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6fadd94e68f5e2b2262d42e9e29e134c') in 0.0102731 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 73
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.419102 seconds.
+  path: Assets/Prefabs/Chunk Prefab.prefab
+  artifactKey: Guid(c4f249894f3e068459ff31bf9434456c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk Prefab.prefab using Guid(c4f249894f3e068459ff31bf9434456c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a1dbf7de403585eee6cf3fa6123bc793') in 0.0117085 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 73
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.616853 seconds.
+  path: Assets/Prefabs/Chunk Prefab.prefab
+  artifactKey: Guid(c4f249894f3e068459ff31bf9434456c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk Prefab.prefab using Guid(c4f249894f3e068459ff31bf9434456c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e2bdb32b2eebbe481c4556607e65c82d') in 0.0500696 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 73
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.460777 seconds.
+  path: Assets/Prefabs/Chunk Prefab.prefab
+  artifactKey: Guid(c4f249894f3e068459ff31bf9434456c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk Prefab.prefab using Guid(c4f249894f3e068459ff31bf9434456c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b7053f00efa2c4d961dc2d7f128dfcc') in 0.0118985 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 73
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.787008 seconds.
+  path: Assets/Prefabs/Chunk Prefab.prefab
+  artifactKey: Guid(c4f249894f3e068459ff31bf9434456c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk Prefab.prefab using Guid(c4f249894f3e068459ff31bf9434456c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '600f2982a6a8b8fdf3d1694be28277e3') in 0.0369967 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 73
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.211131 seconds.
+  path: Assets/Prefabs/Chunk Prefab.prefab
+  artifactKey: Guid(c4f249894f3e068459ff31bf9434456c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk Prefab.prefab using Guid(c4f249894f3e068459ff31bf9434456c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a94b69eba5906403915045413130ba3b') in 0.0138538 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 73
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.794812 seconds.
+  path: Assets/Prefabs/Chunk Prefab.prefab
+  artifactKey: Guid(c4f249894f3e068459ff31bf9434456c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk Prefab.prefab using Guid(c4f249894f3e068459ff31bf9434456c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '679ead105662e1a6c7a5861e4a1bad23') in 0.015504 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 73
+
+========================================================================
+Received Import Request.
+  Time since last request: 71.237496 seconds.
+  path: Assets/Prefabs/Chunk Prefab.prefab
+  artifactKey: Guid(c4f249894f3e068459ff31bf9434456c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk Prefab.prefab using Guid(c4f249894f3e068459ff31bf9434456c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f0e6c51023f40a4fff6885917d2c0c6c') in 0.0118401 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 73
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.945098 seconds.
+  path: Assets/Prefabs/Chunk Prefab.prefab
+  artifactKey: Guid(c4f249894f3e068459ff31bf9434456c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk Prefab.prefab using Guid(c4f249894f3e068459ff31bf9434456c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e7edd8f37e6503519711cb6d5bb00670') in 0.0114303 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 73
+
