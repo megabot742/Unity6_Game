@@ -51,9 +51,9 @@ MonoBehaviour:
   appleSpawnChance: 0.3
   coinSpawnChance: 0.5
   lanes:
-  - -2.5
+  - -3
   - 0
-  - 2.5
+  - 3
   coinSeperationLength: 2
 --- !u!1 &4237002551428335849
 GameObject:
