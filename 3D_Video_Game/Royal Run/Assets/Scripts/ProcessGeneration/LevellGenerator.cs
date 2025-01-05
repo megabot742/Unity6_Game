@@ -10,7 +10,12 @@ public class LevellGenerator : MonoBehaviour
     [SerializeField] int startingChunksAmount = 12;
     [SerializeField] Transform chunkParent;
     [SerializeField] float chunkLength = 10f;
-    [SerializeField] float moveSpeed = 8f;
+    [SerializeField] float moveSpeed = 10f;
+    [SerializeField] float minMoveSpeed = 6f;
+    [SerializeField] float maxMoveSpeed = 20f;
+    [Header("Gravity")]
+    [SerializeField] float minGravtiy = -9.81f;
+    [SerializeField] float maxGravtiy = -19.81f;
     List<GameObject> chunks = new List<GameObject>();
     void Start()
     {
@@ -19,6 +24,30 @@ public class LevellGenerator : MonoBehaviour
     void Update()
     {
         MoveChunks();
+    }
+    public void ChangeChunkMoveSpeed(float speedAmount)
+    {
+        //Move speed
+        moveSpeed += speedAmount;
+        if(moveSpeed <= minMoveSpeed) 
+        {
+            moveSpeed = minMoveSpeed;
+        }
+        else if(moveSpeed > maxMoveSpeed)
+        {
+            moveSpeed = maxMoveSpeed;
+        }
+        //Gravity 
+        float currentGravityPosZ = Physics.gravity.z - speedAmount;
+        if(currentGravityPosZ > minGravtiy)
+        {
+            currentGravityPosZ = minGravtiy;
+        }
+        else if(currentGravityPosZ < maxGravtiy)
+        {
+            currentGravityPosZ = maxGravtiy;
+        }
+        Physics.gravity = new Vector3(Physics.gravity.x, Physics.gravity.y, currentGravityPosZ);
     }
     void SpawnStartingChunks()
     {
