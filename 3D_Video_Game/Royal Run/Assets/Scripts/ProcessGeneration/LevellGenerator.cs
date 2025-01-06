@@ -17,6 +17,7 @@ public class LevellGenerator : MonoBehaviour
     [SerializeField] float minGravtiy = -9.81f;
     [SerializeField] float maxGravtiy = -19.81f;
     List<GameObject> chunks = new List<GameObject>();
+    [SerializeField] CameraController cameraController;
     void Start()
     {
        SpawnStartingChunks();
@@ -27,6 +28,7 @@ public class LevellGenerator : MonoBehaviour
     }
     public void ChangeChunkMoveSpeed(float speedAmount)
     {
+        cameraController.ChangeCameraFOV(speedAmount);
         //Move speed
         moveSpeed += speedAmount;
         if(moveSpeed <= minMoveSpeed) 
@@ -48,6 +50,7 @@ public class LevellGenerator : MonoBehaviour
             currentGravityPosZ = maxGravtiy;
         }
         Physics.gravity = new Vector3(Physics.gravity.x, Physics.gravity.y, currentGravityPosZ);
+        
     }
     void SpawnStartingChunks()
     {
