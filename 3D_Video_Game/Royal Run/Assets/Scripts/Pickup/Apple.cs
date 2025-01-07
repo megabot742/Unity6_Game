@@ -4,13 +4,13 @@ public class Apple : Pickup
 {
     [SerializeField] float positiveMoveSpeed = 1f;
     LevellGenerator levellGenerator;
-    void Start()
+    public void Init(LevellGenerator levellGenerator)
     {
-        levellGenerator = FindFirstObjectByType<LevellGenerator>();
+        this.levellGenerator = levellGenerator;
     }
     protected override void OnPickup()
     {
         levellGenerator.ChangeChunkMoveSpeed(positiveMoveSpeed);
-        Debug.Log("More Speed");
+        //Debug.Log("More Speed");
     }
 }

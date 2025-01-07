@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
+    [SerializeField] ParticleSystem speedUpVFX;
     [SerializeField] float minFOV = 50f;
     [SerializeField] float maxFOV = 80f;
     [SerializeField] float zoomDuration = 1f;
@@ -17,6 +18,10 @@ public class CameraController : MonoBehaviour
     {
         StopAllCoroutines(); //lock key
         StartCoroutine(ChaneFOVRoutine(speedAmount));
+        if(speedAmount > 0)
+        {
+            speedUpVFX.Play();
+        }
     }
     IEnumerator ChaneFOVRoutine(float speedAmount)
     {
@@ -34,6 +39,5 @@ public class CameraController : MonoBehaviour
         }
 
         cinemachineCamera.Lens.FieldOfView = targetFOV;
-
     }
 }

@@ -5,19 +5,25 @@ using UnityEngine;
 
 public class LevellGenerator : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    [Header("References")]
+    [SerializeField] CameraController cameraController;
     [SerializeField] GameObject chunkPrefab;
-    [SerializeField] int startingChunksAmount = 12;
     [SerializeField] Transform chunkParent;
+    [SerializeField] ScoreManager scoreManager;
+
+    [Header("Level Setting")]
+    [SerializeField] int startingChunksAmount = 12;
+    [Tooltip("Do not change chunk length value unless chunk prefab size reflects change")]
     [SerializeField] float chunkLength = 10f;
     [SerializeField] float moveSpeed = 10f;
     [SerializeField] float minMoveSpeed = 6f;
     [SerializeField] float maxMoveSpeed = 20f;
-    [Header("Gravity")]
-    [SerializeField] float minGravtiy = -9.81f;
-    [SerializeField] float maxGravtiy = -19.81f;
+
+    [Header("GravityZ")]
+    [SerializeField] float minGravtiyZ = -20.81f;
+    [SerializeField] float maxGravtiyZ = -9.81f;
+
     List<GameObject> chunks = new List<GameObject>();
-    [SerializeField] CameraController cameraController;
     void Start()
     {
        SpawnStartingChunks();
@@ -28,29 +34,17 @@ public class LevellGenerator : MonoBehaviour
     }
     public void ChangeChunkMoveSpeed(float speedAmount)
     {
-        cameraController.ChangeCameraFOV(speedAmount);
-        //Move speed
-        moveSpeed += speedAmount;
-        if(moveSpeed <= minMoveSpeed) 
+        float newMoveSpeed = moveSpeed + speedAmount;
+        newMoveSpeed = Mathf.Clamp(newMoveSpeed, minMoveSpeed, maxMoveSpeed);
+        if(newMoveSpeed != moveSpeed)
         {
-            moveSpeed = minMoveSpeed;
-        }
-        else if(moveSpeed > maxMoveSpeed)
-        {
-            moveSpeed = maxMoveSpeed;
-        }
-        //Gravity 
-        float currentGravityPosZ = Physics.gravity.z - speedAmount;
-        if(currentGravityPosZ > minGravtiy)
-        {
-            currentGravityPosZ = minGravtiy;
-        }
-        else if(currentGravityPosZ < maxGravtiy)
-        {
-            currentGravityPosZ = maxGravtiy;
-        }
-        Physics.gravity = new Vector3(Physics.gravity.x, Physics.gravity.y, currentGravityPosZ);
-        
+            moveSpeed = newMoveSpeed;
+            float newGravityZ = Physics.gravity.z - speedAmount;
+            newGravityZ = Mathf.Clamp(newGravityZ, minGravtiyZ, maxGravtiyZ);
+            Physics.gravity = new Vector3(Physics.gravity.x, Physics.gravity.y, newGravityZ);
+
+            cameraController.ChangeCameraFOV(speedAmount);
+        }    
     }
     void SpawnStartingChunks()
     {
@@ -63,9 +57,11 @@ public class LevellGenerator : MonoBehaviour
     {
         float spawnPosition = CalculateSpwanPosition();
         Vector3 chunkSpawnPos = new Vector3(transform.position.x,transform.position.y,spawnPosition);
-        GameObject newChunk = Instantiate(chunkPrefab, chunkSpawnPos, Quaternion.identity, chunkParent);
+        GameObject newChunkGO = Instantiate(chunkPrefab, chunkSpawnPos, Quaternion.identity, chunkParent);
 
-        chunks.Add(newChunk);
+        chunks.Add(newChunkGO);
+        Chunk newChunk = newChunkGO.GetComponent<Chunk>();
+        newChunk.Init(this, scoreManager);
     }
     float CalculateSpwanPosition()
     {

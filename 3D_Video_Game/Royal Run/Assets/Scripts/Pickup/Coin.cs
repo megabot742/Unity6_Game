@@ -1,9 +1,16 @@
+using TMPro;
 using UnityEngine;
 
 public class Coin : Pickup
 {
+    [SerializeField] int scoreCoin = 100;
+    ScoreManager scoreManager;
+    public void Init(ScoreManager scoreManager)
+    {
+        this.scoreManager = scoreManager;
+    }
     protected override void OnPickup()
     {
-        Debug.Log("Add 100 point");
+        scoreManager.IncreseScore(scoreCoin);
     }
 }
