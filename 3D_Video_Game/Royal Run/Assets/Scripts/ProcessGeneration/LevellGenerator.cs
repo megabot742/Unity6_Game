@@ -1,13 +1,12 @@
-using System;
 using System.Collections.Generic;
-using Unity.Mathematics;
 using UnityEngine;
 
 public class LevellGenerator : MonoBehaviour
 {
     [Header("References")]
     [SerializeField] CameraController cameraController;
-    [SerializeField] GameObject chunkPrefab;
+    [SerializeField] GameObject[] chunkPrefabs;
+    [SerializeField] GameObject chunkCheckPointPrefab;
     [SerializeField] Transform chunkParent;
     [SerializeField] ScoreManager scoreManager;
 
@@ -23,6 +22,9 @@ public class LevellGenerator : MonoBehaviour
     [SerializeField] float minGravtiyZ = -20.81f;
     [SerializeField] float maxGravtiyZ = -9.81f;
 
+    [Header("ChunksCheckPoint")]
+    [SerializeField] int chunkInterval = 8;
+    int chunksAmount = 0;
     List<GameObject> chunks = new List<GameObject>();
     void Start()
     {
@@ -56,13 +58,31 @@ public class LevellGenerator : MonoBehaviour
     void SpawnChunk()
     {
         float spawnPosition = CalculateSpwanPosition();
-        Vector3 chunkSpawnPos = new Vector3(transform.position.x,transform.position.y,spawnPosition);
-        GameObject newChunkGO = Instantiate(chunkPrefab, chunkSpawnPos, Quaternion.identity, chunkParent);
-
+        Vector3 chunkSpawnPos = new Vector3(transform.position.x, transform.position.y, spawnPosition);
+        GameObject chunkToSpawn = ChooseChunkToSpawn();
+        GameObject newChunkGO = Instantiate(chunkToSpawn, chunkSpawnPos, Quaternion.identity, chunkParent);
         chunks.Add(newChunkGO);
         Chunk newChunk = newChunkGO.GetComponent<Chunk>();
         newChunk.Init(this, scoreManager);
+        chunksAmount++;
     }
+
+    private GameObject ChooseChunkToSpawn()
+    {
+        GameObject chunkToSpawn;
+        if (chunksAmount % chunkInterval == 0 && chunksAmount != 0)
+        {
+            chunkToSpawn = chunkCheckPointPrefab;
+            //chunksAmount = 0; //reset chunksAmount
+        }
+        else
+        {
+            chunkToSpawn = chunkPrefabs[Random.Range(0, chunkPrefabs.Length)];
+        }
+
+        return chunkToSpawn;
+    }
+
     float CalculateSpwanPosition()
     {
         float spawnPosition;
