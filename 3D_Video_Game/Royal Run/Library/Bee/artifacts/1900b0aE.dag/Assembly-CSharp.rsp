@@ -437,6 +437,7 @@
 "Assets/Scripts/Player/CameraController.cs"
 "Assets/Scripts/Player/PlayerCollisionHandler.cs"
 "Assets/Scripts/Player/PlayerController.cs"
+"Assets/Scripts/ProcessGeneration/CheckPoint.cs"
 "Assets/Scripts/ProcessGeneration/Chunk.cs"
 "Assets/Scripts/ProcessGeneration/LevellGenerator.cs"
 "Assets/Scripts/ProcessGeneration/ObstacleDestroy.cs"

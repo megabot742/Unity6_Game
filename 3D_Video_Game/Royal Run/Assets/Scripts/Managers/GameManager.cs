@@ -42,4 +42,9 @@ public class GameManager : MonoBehaviour
         gameOverText.SetActive(true);
         Time.timeScale = 0.1f;
     }
+    public void IncreaseTime(float bonusTime)
+    {
+        if(gameOver) return;
+        timeLeft += bonusTime;
+    }
 }
