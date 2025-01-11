@@ -15,7 +15,7 @@ D:/Unity6_Game/3D_Video_Game/Royal Run
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59571
+59369
 -job-worker-count
 7
 -background-job-worker-count
@@ -59,12 +59,12 @@ D:/Unity6_Game/3D_Video_Game/Royal Run
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [34180]  Target information:
+Player connection [15516]  Target information:
 
-Player connection [34180]  * "[IP] 192.168.2.4 [Port] 0 [Flags] 2 [Guid] 1693843072 [EditorId] 1693843072 [Version] 1048832 [Id] WindowsEditor(7,LEGION-Y7000P) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [15516]  * "[IP] 192.168.2.4 [Port] 0 [Flags] 2 [Guid] 3335564667 [EditorId] 3335564667 [Version] 1048832 [Id] WindowsEditor(7,LEGION-Y7000P) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [34180] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [34180] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [15516] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [15516] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -75,7 +75,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.24f1 (11fa355cd605)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/Resources/UnitySubsystems
@@ -91,49 +91,49 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56280
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56908
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.003561 seconds.
-- Loaded All Assemblies, in  0.479 seconds
+Registered in 0.003439 seconds.
+- Loaded All Assemblies, in  0.488 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 205 ms
+Android Extension - Scanning For ADB Devices 190 ms
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.584 seconds
-Domain Reload Profiling: 1062ms
+- Finished resetting the current domain, in  0.581 seconds
+Domain Reload Profiling: 1068ms
 	BeginReloadAssembly (186ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (47ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (47ms)
-	LoadAllAssembliesAndSetupDomain (188ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (191ms)
 		LoadAssemblies (188ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (181ms)
-			TypeCache.Refresh (180ms)
+		AnalyzeDomain (184ms)
+			TypeCache.Refresh (183ms)
 				TypeCache.ScanAssembly (166ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (585ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (581ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (546ms)
+		SetupLoadedEditorAssemblies (538ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (280ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (6ms)
-			ProcessInitializeOnLoadAttributes (160ms)
-			ProcessInitializeOnLoadMethodAttributes (82ms)
-			AfterProcessingInitializeOnLoad (15ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (166ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
@@ -144,11 +144,11 @@ Import Worker Mode flag is 0x00
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.196 seconds
+- Loaded All Assemblies, in  0.887 seconds
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -158,60 +158,420 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.850 seconds
-Domain Reload Profiling: 2044ms
-	BeginReloadAssembly (389ms)
+- Finished resetting the current domain, in  0.780 seconds
+Domain Reload Profiling: 1665ms
+	BeginReloadAssembly (380ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (31ms)
-	RebuildCommonClasses (30ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (27ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (736ms)
-		LoadAssemblies (476ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (437ms)
+		LoadAssemblies (284ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (341ms)
-			TypeCache.Refresh (264ms)
-				TypeCache.ScanAssembly (241ms)
-			BuildScriptInfoCaches (66ms)
+		AnalyzeDomain (237ms)
+			TypeCache.Refresh (159ms)
+				TypeCache.ScanAssembly (143ms)
+			BuildScriptInfoCaches (65ms)
 			ResolveRequiredComponents (10ms)
-	FinalizeReload (850ms)
+	FinalizeReload (781ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (612ms)
+		SetupLoadedEditorAssemblies (564ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (49ms)
-			ProcessInitializeOnLoadAttributes (468ms)
-			ProcessInitializeOnLoadMethodAttributes (76ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (425ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
 			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 214 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6344 unused Assets / (4.2 MB). Loaded Objects now: 7128.
-Memory consumption went from 195.4 MB to 191.2 MB.
-Total: 6.425800 ms (FindLiveObjects: 0.426300 ms CreateObjectMapping: 0.312500 ms MarkObjects: 4.201700 ms  DeleteObjects: 1.483900 ms)
+Unloading 6344 unused Assets / (3.3 MB). Loaded Objects now: 7130.
+Memory consumption went from 195.5 MB to 192.1 MB.
+Total: 6.510600 ms (FindLiveObjects: 0.759900 ms CreateObjectMapping: 0.273300 ms MarkObjects: 3.976000 ms  DeleteObjects: 1.499600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1195011.007673 seconds.
-  path: Assets/Settings/SampleSceneProfile.asset
-  artifactKey: Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/SampleSceneProfile.asset using Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '716fc4cf54e32acd522780d4293a2b06') in 0.032896 seconds
-Number of updated asset objects reloaded before import = 4Number of asset objects unloaded after import = 0
+  Time since last request: 639.235900 seconds.
+  path: Assets/Prefabs/Chunk/LightPost Left.prefab
+  artifactKey: Guid(2baf18e742cb26d40a06fe2d012a1e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk/LightPost Left.prefab using Guid(2baf18e742cb26d40a06fe2d012a1e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '219ca69cbd369e8be73dafc9ba621db3') in 0.493584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 162
 
 ========================================================================
 Received Import Request.
-  Time since last request: 538.288134 seconds.
-  path: Assets/Settings/PC_RPAsset.asset
-  artifactKey: Guid(4b83569d67af61e458304325a23e5dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/PC_RPAsset.asset using Guid(4b83569d67af61e458304325a23e5dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5054f3407ad7dfcc4b3d68d5d4e89646') in 0.0014737 seconds
-Number of updated asset objects reloaded before import = 7Number of asset objects unloaded after import = 0
+  Time since last request: 0.000042 seconds.
+  path: Assets/Prefabs/Chunk/LightPost Right.prefab
+  artifactKey: Guid(c7512d922f625b648b413284ce5bfb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk/LightPost Right.prefab using Guid(c7512d922f625b648b413284ce5bfb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '854211a2c7a10dd515148580091849b6') in 0.0256713 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 162
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.082228 seconds.
+  path: Assets/Prefabs/Chunk/LightPost Left.prefab
+  artifactKey: Guid(2baf18e742cb26d40a06fe2d012a1e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk/LightPost Left.prefab using Guid(2baf18e742cb26d40a06fe2d012a1e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dfc543cf885d9ac04aac19328d97698a') in 0.2468679 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 166
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.526914 seconds.
+  path: Assets/Prefabs/Chunk/LightPost Left.prefab
+  artifactKey: Guid(2baf18e742cb26d40a06fe2d012a1e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk/LightPost Left.prefab using Guid(2baf18e742cb26d40a06fe2d012a1e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a10a461910258d175f1778d04d88ab8b') in 0.0141725 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 166
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.173709 seconds.
+  path: Assets/Prefabs/Chunk/LightPost Left.prefab
+  artifactKey: Guid(2baf18e742cb26d40a06fe2d012a1e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk/LightPost Left.prefab using Guid(2baf18e742cb26d40a06fe2d012a1e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd515984b0c7a2849120ea43dc91182a7') in 0.0162452 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 166
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.585287 seconds.
+  path: Assets/Prefabs/Chunk/LightPost Left.prefab
+  artifactKey: Guid(2baf18e742cb26d40a06fe2d012a1e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk/LightPost Left.prefab using Guid(2baf18e742cb26d40a06fe2d012a1e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e5a470ea568f6e6c9de429cf1cdd00d0') in 0.0153179 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 166
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.385986 seconds.
+  path: Assets/Prefabs/Chunk/LightPost Left.prefab
+  artifactKey: Guid(2baf18e742cb26d40a06fe2d012a1e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk/LightPost Left.prefab using Guid(2baf18e742cb26d40a06fe2d012a1e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '98ba003410eaab8e179aea146ff2e9f2') in 0.0158032 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 166
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.806860 seconds.
+  path: Assets/Prefabs/Chunk/LightPost Left.prefab
+  artifactKey: Guid(2baf18e742cb26d40a06fe2d012a1e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk/LightPost Left.prefab using Guid(2baf18e742cb26d40a06fe2d012a1e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58b1c7fbd1cab3ddc0cd8c01b3956d60') in 0.0154617 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 166
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.253668 seconds.
+  path: Assets/Prefabs/Chunk/LightPost Left.prefab
+  artifactKey: Guid(2baf18e742cb26d40a06fe2d012a1e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk/LightPost Left.prefab using Guid(2baf18e742cb26d40a06fe2d012a1e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96f98121a8084f5d0098768328759d70') in 0.013214 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 166
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.983987 seconds.
+  path: Assets/Prefabs/Chunk/LightPost Left.prefab
+  artifactKey: Guid(2baf18e742cb26d40a06fe2d012a1e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk/LightPost Left.prefab using Guid(2baf18e742cb26d40a06fe2d012a1e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b07d5f214c4bdf011955eec471b107c1') in 0.0156794 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 166
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.784396 seconds.
+  path: Assets/Prefabs/Chunk/LightPost Left.prefab
+  artifactKey: Guid(2baf18e742cb26d40a06fe2d012a1e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk/LightPost Left.prefab using Guid(2baf18e742cb26d40a06fe2d012a1e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f93c727a7442a95c09f21da1d703aa9') in 0.0147772 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 166
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.993816 seconds.
+  path: Assets/Prefabs/Chunk/LightPost Left.prefab
+  artifactKey: Guid(2baf18e742cb26d40a06fe2d012a1e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk/LightPost Left.prefab using Guid(2baf18e742cb26d40a06fe2d012a1e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '013141b981d59deedcfcae2ef8e3a695') in 0.0442403 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 166
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.543923 seconds.
+  path: Assets/Prefabs/Chunk/LightPost Left.prefab
+  artifactKey: Guid(2baf18e742cb26d40a06fe2d012a1e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk/LightPost Left.prefab using Guid(2baf18e742cb26d40a06fe2d012a1e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c35db9145fffa087f35bdee9e25fd01') in 0.0201635 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 166
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.608529 seconds.
+  path: Assets/Prefabs/Chunk/LightPost Both.prefab
+  artifactKey: Guid(28edcc4737e14d644858a65d71dd362c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk/LightPost Both.prefab using Guid(28edcc4737e14d644858a65d71dd362c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b2c25356fe97bad0ff343421d2f3f045') in 0.0333242 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 187
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Prefabs/Chunk/LightPost Right.prefab
+  artifactKey: Guid(c7512d922f625b648b413284ce5bfb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk/LightPost Right.prefab using Guid(c7512d922f625b648b413284ce5bfb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '916dfc2430b0478774eb546b8f3a8990') in 0.0334842 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 174
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007926 seconds.
+  path: Assets/Prefabs/Chunk/LightPost Left.prefab
+  artifactKey: Guid(2baf18e742cb26d40a06fe2d012a1e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk/LightPost Left.prefab using Guid(2baf18e742cb26d40a06fe2d012a1e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a92f65181568cd21e69164fc1c527d1') in 0.0171157 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 172
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.240516 seconds.
+  path: Assets/Prefabs/Chunk/LightPost Left.prefab
+  artifactKey: Guid(2baf18e742cb26d40a06fe2d012a1e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk/LightPost Left.prefab using Guid(2baf18e742cb26d40a06fe2d012a1e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e547e991eba9e964bb208800befc9bb') in 0.0133071 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 172
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.374745 seconds.
+  path: Assets/Prefabs/Chunk/LightPost Left.prefab
+  artifactKey: Guid(2baf18e742cb26d40a06fe2d012a1e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk/LightPost Left.prefab using Guid(2baf18e742cb26d40a06fe2d012a1e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c3a5d7de8e5110092599088de15fe28') in 0.0149777 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 172
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.627047 seconds.
+  path: Assets/Prefabs/Chunk/LightPost Left.prefab
+  artifactKey: Guid(2baf18e742cb26d40a06fe2d012a1e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk/LightPost Left.prefab using Guid(2baf18e742cb26d40a06fe2d012a1e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '775d19544d84b66aa7137b6e305d7f50') in 0.0375932 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 172
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.447921 seconds.
+  path: Assets/Prefabs/Chunk/LightPost Left.prefab
+  artifactKey: Guid(2baf18e742cb26d40a06fe2d012a1e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk/LightPost Left.prefab using Guid(2baf18e742cb26d40a06fe2d012a1e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '36a8d6dd87ea7f21fc57b98523a672ba') in 0.0241883 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 172
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.990443 seconds.
+  path: Assets/Prefabs/Chunk/LightPost Left.prefab
+  artifactKey: Guid(2baf18e742cb26d40a06fe2d012a1e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk/LightPost Left.prefab using Guid(2baf18e742cb26d40a06fe2d012a1e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e27b539369b2d2b6e5c02a75b15079fa') in 0.0525679 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 172
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.763795 seconds.
+  path: Assets/Prefabs/Chunk/LightPost Left.prefab
+  artifactKey: Guid(2baf18e742cb26d40a06fe2d012a1e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk/LightPost Left.prefab using Guid(2baf18e742cb26d40a06fe2d012a1e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '99baea66ea4f6e677ab5b539be4a40dd') in 0.0148076 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 172
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.062991 seconds.
+  path: Assets/Prefabs/Chunk/LightPost Left.prefab
+  artifactKey: Guid(2baf18e742cb26d40a06fe2d012a1e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk/LightPost Left.prefab using Guid(2baf18e742cb26d40a06fe2d012a1e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e1a166049a36b8b7e492a72a90cc5767') in 0.0146984 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 172
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.494192 seconds.
+  path: Assets/Prefabs/Chunk/LightPost Left.prefab
+  artifactKey: Guid(2baf18e742cb26d40a06fe2d012a1e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk/LightPost Left.prefab using Guid(2baf18e742cb26d40a06fe2d012a1e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b8a0950ed95619b19e6244fdf776ed8') in 0.0171258 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 172
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.919037 seconds.
+  path: Assets/Prefabs/Chunk/LightPost Both.prefab
+  artifactKey: Guid(28edcc4737e14d644858a65d71dd362c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk/LightPost Both.prefab using Guid(28edcc4737e14d644858a65d71dd362c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb4d6036c3d2f3d685133d910a8d2d9f') in 0.0568482 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 187
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Prefabs/Chunk/LightPost Both.prefab
+  artifactKey: Guid(28edcc4737e14d644858a65d71dd362c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk/LightPost Both.prefab using Guid(28edcc4737e14d644858a65d71dd362c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb4d6036c3d2f3d685133d910a8d2d9f') in 0.016142 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 187
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Prefabs/Chunk/LightPost Right.prefab
+  artifactKey: Guid(c7512d922f625b648b413284ce5bfb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk/LightPost Right.prefab using Guid(c7512d922f625b648b413284ce5bfb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '39244546e64a89d56183569d68315118') in 0.03461 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 174
+
+========================================================================
+Received Import Request.
+  Time since last request: 433.616308 seconds.
+  path: Assets/Prefabs/Chunk/LightPost Left.prefab
+  artifactKey: Guid(2baf18e742cb26d40a06fe2d012a1e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk/LightPost Left.prefab using Guid(2baf18e742cb26d40a06fe2d012a1e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb843a44333b63e847d170530ef4bfdf') in 0.0609714 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 177
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.080462 seconds.
+  path: Assets/Prefabs/Chunk/LightPost Left.prefab
+  artifactKey: Guid(2baf18e742cb26d40a06fe2d012a1e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk/LightPost Left.prefab using Guid(2baf18e742cb26d40a06fe2d012a1e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a4665edda4df33acf4d0a83e7d34999a') in 0.0246741 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 177
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.360560 seconds.
+  path: Assets/Prefabs/Chunk/LightPost Left.prefab
+  artifactKey: Guid(2baf18e742cb26d40a06fe2d012a1e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk/LightPost Left.prefab using Guid(2baf18e742cb26d40a06fe2d012a1e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b942eb5f757fc8884313787eb6f78c03') in 0.0270274 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 177
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.306223 seconds.
+  path: Assets/Imported Assets/GDTV Assets/Prefabs/Light_Hanging_Pole_Furn.prefab
+  artifactKey: Guid(9e3740eea4654ff4595607f1fa3a28c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/GDTV Assets/Prefabs/Light_Hanging_Pole_Furn.prefab using Guid(9e3740eea4654ff4595607f1fa3a28c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac7ff1fe8c8a7f730ceb65eb3d11d19e') in 0.0287445 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.277339 seconds.
+  path: Assets/Material/LightPost Materials.mat
+  artifactKey: Guid(5f67b9b4b97300049afb7842884e62a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/LightPost Materials.mat using Guid(5f67b9b4b97300049afb7842884e62a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '46b584cf2f10cb56bbb6b796d02ed46a') in 0.0937609 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 276.975266 seconds.
+  path: Assets/Prefabs/Chunk/Check Point.prefab
+  artifactKey: Guid(c61bf936875be7e4a8879b49fecc9cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk/Check Point.prefab using Guid(c61bf936875be7e4a8879b49fecc9cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '04a28008d1346afcd1ffd3d4f1e77f33') in 0.0733712 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 218
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.780958 seconds.
+  path: Assets/Prefabs/Chunk/LightPost Left.prefab
+  artifactKey: Guid(2baf18e742cb26d40a06fe2d012a1e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk/LightPost Left.prefab using Guid(2baf18e742cb26d40a06fe2d012a1e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f40cfd7d0e6227a7a66ec43d493f899') in 1.7360217 seconds
+Number of updated asset objects reloaded before import = 6Number of asset objects unloaded after import = 178
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.710701 seconds.
+  path: Assets/Material/LightPost Materials.mat
+  artifactKey: Guid(5f67b9b4b97300049afb7842884e62a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/LightPost Materials.mat using Guid(5f67b9b4b97300049afb7842884e62a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f40b32ec27a5836b290a504953458394') in 0.0204581 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.545405 seconds.
+  path: Assets/Material/LightPost Materials.mat
+  artifactKey: Guid(5f67b9b4b97300049afb7842884e62a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/LightPost Materials.mat using Guid(5f67b9b4b97300049afb7842884e62a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '912d8af1255813c213b84760a7ed4121') in 0.0191532 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 73.353323 seconds.
+  path: Assets/Imported Assets/GDTV Assets/Prefabs/Light_Hanging_Pole_Furn.prefab
+  artifactKey: Guid(9e3740eea4654ff4595607f1fa3a28c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets/GDTV Assets/Prefabs/Light_Hanging_Pole_Furn.prefab using Guid(9e3740eea4654ff4595607f1fa3a28c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9350a8242a9fe6940720166d8f9d4c54') in 0.028377 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.332551 seconds.
+  path: Assets/Prefabs/Chunk/LightPost Both.prefab
+  artifactKey: Guid(28edcc4737e14d644858a65d71dd362c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk/LightPost Both.prefab using Guid(28edcc4737e14d644858a65d71dd362c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c0d8fb974ac70d561261f47f4076b12d') in 0.0352209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 203
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Prefabs/Chunk/LightPost Right.prefab
+  artifactKey: Guid(c7512d922f625b648b413284ce5bfb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk/LightPost Right.prefab using Guid(c7512d922f625b648b413284ce5bfb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a0d4fe31c76b7fa361af6e5afe6cdf99') in 0.0229121 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 185
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.236161 seconds.
+  path: Assets/Prefabs/Chunk/LightPost Right.prefab
+  artifactKey: Guid(c7512d922f625b648b413284ce5bfb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk/LightPost Right.prefab using Guid(c7512d922f625b648b413284ce5bfb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f7682ee2a3adbb1529b9df8d71aa60b') in 0.0677903 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 185
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.372124 seconds.
+  path: Assets/Prefabs/Chunk/LightPost Right.prefab
+  artifactKey: Guid(c7512d922f625b648b413284ce5bfb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk/LightPost Right.prefab using Guid(c7512d922f625b648b413284ce5bfb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '678f436ec7de13ea6246ef8ec8c71d4f') in 0.0334779 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 185
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.662619 seconds.
+  path: Assets/Prefabs/Chunk/LightPost Right.prefab
+  artifactKey: Guid(c7512d922f625b648b413284ce5bfb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk/LightPost Right.prefab using Guid(c7512d922f625b648b413284ce5bfb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '29086d7905e11ead35e28203e1b237bf') in 0.0217236 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 185
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.928500 seconds.
+  path: Assets/Prefabs/Chunk/LightPost Both.prefab
+  artifactKey: Guid(28edcc4737e14d644858a65d71dd362c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk/LightPost Both.prefab using Guid(28edcc4737e14d644858a65d71dd362c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58b87f92fe2e827605c75894ac9e66ce') in 0.0252984 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 203
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.367177 seconds.
+  path: Assets/Prefabs/Chunk/LightPost Both.prefab
+  artifactKey: Guid(28edcc4737e14d644858a65d71dd362c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk/LightPost Both.prefab using Guid(28edcc4737e14d644858a65d71dd362c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '23e9b6e2c0f91d860e5546cd98a5ee95') in 0.0242559 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 203
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.996614 seconds.
+  path: Assets/Prefabs/Chunk/LightPost Both.prefab
+  artifactKey: Guid(28edcc4737e14d644858a65d71dd362c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk/LightPost Both.prefab using Guid(28edcc4737e14d644858a65d71dd362c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f40eb9d432da7a41ae7a4a2d1a7e0f41') in 0.0306078 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 203
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.570011 seconds.
+  path: Assets/Prefabs/Chunk/LightPost Both.prefab
+  artifactKey: Guid(28edcc4737e14d644858a65d71dd362c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk/LightPost Both.prefab using Guid(28edcc4737e14d644858a65d71dd362c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '52fc1ead973221b7f8d364fd61f7a9fc') in 0.0244571 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 203
+
+========================================================================
+Received Import Request.
+  Time since last request: 351.685349 seconds.
+  path: Assets/Prefabs/Chunk/Check Point.prefab
+  artifactKey: Guid(c61bf936875be7e4a8879b49fecc9cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chunk/Check Point.prefab using Guid(c61bf936875be7e4a8879b49fecc9cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2971f81b45cb174bdad55a3304d26d6f') in 0.0338245 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 218
 
