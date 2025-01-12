@@ -5,13 +5,19 @@ public class ObstacleSpawner : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     [SerializeField] GameObject[] obstaclePrefabs;
-    [SerializeField] float obstacleSpawnTime = 2f;
+    [SerializeField] float obstacleSpawnTime = 3f;
     [SerializeField] Transform obstacleParent;
     [SerializeField] float spawnWidth = 4f;
     [SerializeField] bool isSpawn = true;
+    const float minObstacleSpawnTime = 1f;
     void Start()
     {
        StartCoroutine(SpawnObstacles());
+    }
+    public void DecreaseObstacleSpawnTime(float amount)
+    {
+        obstacleSpawnTime -= amount;
+        if(obstacleSpawnTime <= minObstacleSpawnTime) obstacleSpawnTime = minObstacleSpawnTime;
     }
     IEnumerator SpawnObstacles()
     {

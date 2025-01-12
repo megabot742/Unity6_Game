@@ -506,6 +506,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -7743994894092499701, guid: c4f249894f3e068459ff31bf9434456c, type: 3}
+      propertyPath: coinSpawnChance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7743994894092499701, guid: c4f249894f3e068459ff31bf9434456c, type: 3}
+      propertyPath: appleSpawnChance
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4211636495189009411, guid: c4f249894f3e068459ff31bf9434456c, type: 3}
       propertyPath: m_Name
       value: Check Point
@@ -594,6 +602,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bonusTime: 5
+  obstacleDecreaseTimeAmount: 0.1
 --- !u!65 &4508938181194281906
 BoxCollider:
   m_ObjectHideFlags: 0

@@ -5156,9 +5156,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12e3053bfecae9d458a93132a6ffeb9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 3590395743344839573}
+  smashAudioSource: {fileID: 3590395743344839573}
   collisionParticleSystem: {fileID: 3081580326822394882}
   shakeModifer: 10
+  collisionCoolDown: 1
 --- !u!82 &3590395743344839573
 AudioSource:
   m_ObjectHideFlags: 0
