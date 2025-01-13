@@ -1,5 +1,6 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -46,5 +47,18 @@ public class GameManager : MonoBehaviour
     {
         if(gameOver) return;
         timeLeft += bonusTime;
+    }
+    
+    public void Home()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
+    public void Restart()
+    {
+        gameOver = false;
+        Time.timeScale = 1;
+        timeLeft = startTime;
+        SceneManager.LoadScene("MainLevel");
+        gameOverText.SetActive(false);
     }
 }
