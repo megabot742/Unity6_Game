@@ -602,7 +602,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bonusTime: 5
-  obstacleDecreaseTimeAmount: 0.1
+  obstacleDecreaseTimeAmount: 0.05
 --- !u!65 &4508938181194281906
 BoxCollider:
   m_ObjectHideFlags: 0

@@ -16,6 +16,5 @@ public abstract class Pickup : MonoBehaviour
             Destroy(gameObject);
         }
     }
-
     protected abstract void OnPickup();
 }

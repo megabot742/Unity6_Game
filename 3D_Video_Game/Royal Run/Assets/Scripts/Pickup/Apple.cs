@@ -3,6 +3,8 @@ using UnityEngine;
 public class Apple : Pickup
 {
     [SerializeField] float positiveMoveSpeed = 1f;
+    [SerializeField] AudioClip appleAudio;
+    [SerializeField, Range(0,1)] float audioVolume;
     LevellGenerator levellGenerator;
     public void Init(LevellGenerator levellGenerator)
     {
@@ -11,6 +13,6 @@ public class Apple : Pickup
     protected override void OnPickup()
     {
         levellGenerator.ChangeChunkMoveSpeed(positiveMoveSpeed);
-        //Debug.Log("More Speed");
+        AudioSource.PlayClipAtPoint(appleAudio,transform.position, audioVolume);
     }
 }

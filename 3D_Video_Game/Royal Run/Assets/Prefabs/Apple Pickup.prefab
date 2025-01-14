@@ -71,6 +71,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotationSpeed: 100
   positiveMoveSpeed: 1
+  appleAudio: {fileID: 8300000, guid: 84259cb6c5647fd4ab0f92e15f28bc40, type: 3}
+  audioVolume: 0.8
 --- !u!1 &7596074544366774582
 GameObject:
   m_ObjectHideFlags: 0

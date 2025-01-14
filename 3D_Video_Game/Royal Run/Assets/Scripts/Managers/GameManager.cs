@@ -51,7 +51,11 @@ public class GameManager : MonoBehaviour
     
     public void Home()
     {
+        gameOver = false;
+        Time.timeScale = 1;
+        timeLeft = startTime;
         SceneManager.LoadScene("MainMenu");
+        gameOverText.SetActive(false);
     }
     public void Restart()
     {

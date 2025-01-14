@@ -9,7 +9,7 @@ public class ObstacleSpawner : MonoBehaviour
     [SerializeField] Transform obstacleParent;
     [SerializeField] float spawnWidth = 4f;
     [SerializeField] bool isSpawn = true;
-    const float minObstacleSpawnTime = 1f;
+    const float minObstacleSpawnTime = 0.5f;
     void Start()
     {
        StartCoroutine(SpawnObstacles());

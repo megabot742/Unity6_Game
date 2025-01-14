@@ -69,6 +69,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31abab26d69b0504dbfecdc9973b93f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rotationSpeed: 100
+  scoreCoin: 100
+  coinAudio: {fileID: 8300000, guid: d0392ce1098dcb74e8372419a9ec9d43, type: 3}
+  audioVolume: 0.8
 --- !u!1 &6564917145074984957
 GameObject:
   m_ObjectHideFlags: 0
