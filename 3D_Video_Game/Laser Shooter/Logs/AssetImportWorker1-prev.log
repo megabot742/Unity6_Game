@@ -15,7 +15,7 @@ D:/Unity6_Game/3D_Video_Game/Laser Shooter
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-52887
+53366
 -job-worker-count
 7
 -background-job-worker-count
@@ -59,12 +59,12 @@ D:/Unity6_Game/3D_Video_Game/Laser Shooter
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [2108]  Target information:
+Player connection [21368]  Target information:
 
-Player connection [2108]  * "[IP] 192.168.2.4 [Port] 0 [Flags] 2 [Guid] 3129196438 [EditorId] 3129196438 [Version] 1048832 [Id] WindowsEditor(7,LEGION-Y7000P) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [21368]  * "[IP] 192.168.2.4 [Port] 0 [Flags] 2 [Guid] 1435621001 [EditorId] 1435621001 [Version] 1048832 [Id] WindowsEditor(7,LEGION-Y7000P) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [2108] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [2108] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [21368] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [21368] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -75,7 +75,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.24f1 (11fa355cd605)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/Resources/UnitySubsystems
@@ -91,49 +91,49 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56172
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56672
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.24f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.003996 seconds.
-- Loaded All Assemblies, in  0.336 seconds
+Registered in 0.003271 seconds.
+- Loaded All Assemblies, in  0.322 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 3690 ms
+Android Extension - Scanning For ADB Devices 195 ms
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  4.070 seconds
-Domain Reload Profiling: 4404ms
-	BeginReloadAssembly (115ms)
+- Finished resetting the current domain, in  0.539 seconds
+Domain Reload Profiling: 860ms
+	BeginReloadAssembly (107ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (45ms)
-	LoadAllAssembliesAndSetupDomain (137ms)
-		LoadAssemblies (112ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (132ms)
+		LoadAssemblies (105ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (133ms)
-			TypeCache.Refresh (132ms)
-				TypeCache.ScanAssembly (121ms)
+		AnalyzeDomain (129ms)
+			TypeCache.Refresh (128ms)
+				TypeCache.ScanAssembly (117ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (4070ms)
+	FinalizeReload (540ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (4020ms)
+		SetupLoadedEditorAssemblies (503ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3764ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (7ms)
-			ProcessInitializeOnLoadAttributes (131ms)
-			ProcessInitializeOnLoadMethodAttributes (87ms)
-			AfterProcessingInitializeOnLoad (28ms)
+			InitializePlatformSupportModulesInManaged (272ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (6ms)
+			ProcessInitializeOnLoadAttributes (137ms)
+			ProcessInitializeOnLoadMethodAttributes (73ms)
+			AfterProcessingInitializeOnLoad (11ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
@@ -141,995 +141,76 @@ Domain Reload Profiling: 4404ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-TypeRef ResolutionScope not yet handled (234) for .IMergeView in image D:\Unity6_Game\3D_Video_Game\Laser Shooter\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/ApplicationDataPath.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/AssetMenu/AssetFilesFilterPatternsMenuBuilder.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/AssetMenu/AssetMenuItems.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/AssetMenu/AssetMenuOperations.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/AssetMenu/AssetOperations.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/AssetMenu/AssetsSelection.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/AssetMenu/Dialogs/CheckinDialog.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/AssetMenu/Dialogs/CheckinDialogOperations.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/AssetMenu/ProjectViewAssetSelection.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/AssetOverlays/AssetStatus.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/AssetOverlays/Cache/AssetStatusCache.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/AssetOverlays/Cache/BuildPathDictionary.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/AssetOverlays/Cache/LocalStatusCache.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/AssetOverlays/Cache/LockStatusCache.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/AssetOverlays/Cache/RemoteStatusCache.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/AssetOverlays/DrawAssetOverlay.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/AssetsUtils/AssetsPath.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/AssetsUtils/GetSelectedPaths.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/AssetsUtils/LoadAsset.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/AssetsUtils/Processor/AssetModificationProcessor.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/AssetsUtils/Processor/AssetPostprocessor.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/AssetsUtils/Processor/AssetsProcessor.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/AssetsUtils/Processor/PlasticAssetsProcessor.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/AssetsUtils/Processor/WorkspaceOperationsMonitor.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/AssetsUtils/ProjectPath.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/AssetsUtils/RefreshAsset.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/AssetsUtils/RepaintInspector.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/AssetsUtils/SaveAssets.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/AutoRefresh.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/BuildGetEventExtraInfoFunction.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/CheckWorkspaceTreeNodeStatus.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/CollabMigration/CloudProjectId.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/CollabMigration/MigrateCollabProject.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/CollabMigration/MigrationDialog.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/CollabMigration/MigrationProgressRender.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/CollabPlugin.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Configuration/AutoConfig.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Configuration/ChannelCertificateUiImpl.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Configuration/CloudEdition/Welcome/AutoLogin.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Configuration/CloudEdition/Welcome/CloudEditionWelcomeWindow.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Configuration/CloudEdition/Welcome/OrganizationPanel.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Configuration/CloudEdition/Welcome/SignInPanel.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Configuration/CloudEdition/Welcome/SignInWithEmailPanel.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Configuration/CloudEdition/Welcome/WaitingSignInPanel.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Configuration/ConfigurePartialWorkspace.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Configuration/CredentialsDialog.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Configuration/CredentialsUIImpl.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Configuration/EncryptionConfigurationDialog.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Configuration/MissingEncryptionPasswordPromptHandler.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Configuration/SSOCredentialsDialog.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Configuration/TeamEdition/TeamEditionConfigurationWindow.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Configuration/ToolConfig.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Configuration/WriteLogConfiguration.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Developer/CheckinProgress.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Developer/GenericProgress.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Developer/IncomingChangesNotifier.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Developer/ProgressOperationHandler.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Developer/UpdateProgress.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Developer/UpdateReport/UpdateReportDialog.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Developer/UpdateReport/UpdateReportLineListViewItem.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Developer/UpdateReport/UpdateReportListHeaderState.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Developer/UpdateReport/UpdateReportListView.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/DrawGuiModeSwitcher.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/EnumExtensions.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/FindWorkspace.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/GetRelativePath.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Gluon/CheckinProgress.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Gluon/IncomingChangesNotifier.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Gluon/ProgressOperationHandler.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Gluon/UpdateProgress.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Gluon/UpdateReport/ErrorListViewItem.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Gluon/UpdateReport/UpdateReportDialog.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Gluon/UpdateReport/UpdateReportListHeaderState.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Gluon/UpdateReport/UpdateReportListView.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Help/BuildFormattedHelp.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Help/DrawHelpPanel.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Help/ExternalLink.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Help/HelpData.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Help/HelpFormat.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Help/HelpLink.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Help/HelpLinkData.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Help/HelpPanel.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Help/TestingHelpData.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Hub/CommandLineArguments.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Hub/Operations/CreateWorkspace.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Hub/Operations/DownloadRepository.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Hub/Operations/OperationParams.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Hub/ParseArguments.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Hub/ProcessCommand.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Inspector/DrawInspectorOperations.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Inspector/InspectorAssetSelection.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/MetaPath.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/NewIncomingChanges.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/OrganizationsInformation.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/ParentWindow.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/PlasticApp.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/PlasticConnectionMonitor.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/PlasticMenuItem.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/PlasticNotification.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/PlasticPlugin.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/PlasticPluginIsEnabledPreference.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/PlasticProjectSettingsProvider.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/PlasticShutdown.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/PlasticWindow.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/ProjectWindow.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/QueryVisualElementsExtensions.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/SceneView/DrawSceneOperations.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/SwitchModeConfirmationDialog.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Tool/AuthToken.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Tool/BringWindowToFront.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Tool/FindTool.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Tool/IsExeAvailable.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Tool/LaunchInstaller.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Tool/LaunchTool.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Tool/ToolConstants.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/Avatar/ApplyCircleMask.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/Avatar/AvatarImages.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/Avatar/GetAvatar.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/BoolSetting.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/CloseWindowIfOpened.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/CooldownWindowDelayer.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/DockEditorWindow.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/DrawActionButton.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/DrawActionButtonWithMenu.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/DrawActionHelpBox.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/DrawActionToolbar.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/DrawSearchField.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/DrawSplitter.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/DrawTextBlockWithEndLink.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/DrawUserIcon.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/DropDownTextField.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/EditorDispatcher.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/EditorProgressBar.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/EditorProgressControls.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/EditorVersion.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/EditorWindowFocus.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/EnumPopupSetting.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/FindEditorWindow.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/GetPlasticShortcut.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/GUIActionRunner.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/GuiEnabled.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/HandleMenuItem.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/Images.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/MeasureMaxWidth.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/OverlayRect.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/PlasticDialog.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/PlasticSplitterGUILayout.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/Progress/DrawProgressForDialogs.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/Progress/DrawProgressForMigration.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/Progress/DrawProgressForOperations.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/Progress/DrawProgressForViews.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/Progress/OperationProgressData.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/Progress/ProgressControlsForDialogs.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/Progress/ProgressControlsForMigration.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/Progress/ProgressControlsForViews.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/RunModal.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/ScreenResolution.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/ShowWindow.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/SortOrderComparer.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/StatusBar/IncomingChangesNotification.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/StatusBar/NotificationBar.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/StatusBar/StatusBar.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/TabButton.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/Tree/DrawTreeViewEmptyState.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/Tree/DrawTreeViewItem.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/Tree/GetChangesOverlayIcon.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/Tree/ListViewItemIds.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/Tree/TableViewOperations.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/Tree/TreeHeaderColumns.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/Tree/TreeHeaderSettings.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/Tree/TreeViewItemIds.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/UIElements/LoadingSpinner.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/UIElements/ProgressControlsForDialogs.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/UIElements/UIElementsExtensions.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/UnityConstants.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/UnityEvents.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/UnityMenuItem.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/UnityPlasticGuiMessage.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/UnityPlasticTimer.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/UnityStyles.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UI/UnityThreadWaiter.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UnityConfigurationChecker.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/UVCPackageVersion.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/VCSPlugin.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Branch/BranchesListHeaderState.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Branch/BranchesListView.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Branch/BranchesSelection.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Branch/BranchesTab.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Branch/BranchesViewMenu.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Branch/BranchListViewItem.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Branch/Dialogs/CreateBranchDialog.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Branch/Dialogs/DeleteBranchDialog.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Branch/Dialogs/RenameBranchDialog.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Changesets/ChangesetListViewItem.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Changesets/ChangesetsListHeaderState.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Changesets/ChangesetsListView.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Changesets/ChangesetsSelection.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Changesets/ChangesetsTab.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Changesets/ChangesetsTab_Operations.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Changesets/ChangesetsViewMenu.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Changesets/DateFilter.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Changesets/LaunchDiffOperations.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/ConfirmContinueWithPendingChangesDialog.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/CreateWorkspace/CreateWorkspaceView.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/CreateWorkspace/CreateWorkspaceViewState.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/CreateWorkspace/Dialogs/CreateRepositoryDialog.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/CreateWorkspace/Dialogs/RepositoriesListHeaderState.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/CreateWorkspace/Dialogs/RepositoriesListView.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/CreateWorkspace/Dialogs/RepositoryExplorerDialog.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/CreateWorkspace/Dialogs/RepositoryListViewItem.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/CreateWorkspace/DrawCreateWorkspaceView.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/CreateWorkspace/PerformInitialCheckin.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/CreateWorkspace/ValidRepositoryName.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Diff/ChangeCategoryTreeViewItem.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Diff/ClientDiffTreeViewItem.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Diff/Dialogs/GetRestorePathDialog.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Diff/DiffPanel.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Diff/DiffSelection.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Diff/DiffTreeView.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Diff/DiffTreeViewMenu.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Diff/GetClientDiffInfos.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Diff/MergeCategoryTreeViewItem.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Diff/UnityDiffTree.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/DownloadPlasticExeDialog.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/FileSystemOperation.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/History/HistoryListHeaderState.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/History/HistoryListView.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/History/HistoryListViewItem.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/History/HistoryListViewMenu.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/History/HistorySelection.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/History/HistoryTab.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/History/SaveAction.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/IncomingChanges/Developer/ChangeCategoryTreeViewItem.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/IncomingChanges/Developer/ChangeTreeViewItem.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/IncomingChanges/Developer/DirectoryConflicts/ConflictResolutionState.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/IncomingChanges/Developer/DirectoryConflicts/DrawDirectoryResolutionPanel.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/IncomingChanges/Developer/IncomingChangesSelection.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/IncomingChanges/Developer/IncomingChangesTab.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/IncomingChanges/Developer/IncomingChangesTreeHeaderState.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/IncomingChanges/Developer/IncomingChangesTreeView.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/IncomingChanges/Developer/IncomingChangesViewMenu.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/IncomingChanges/Developer/IsCurrent.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/IncomingChanges/Developer/IsResolved.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/IncomingChanges/Developer/UnityIncomingChangesTree.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/IncomingChanges/DrawIncomingChangesOverview.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/IncomingChanges/Gluon/ChangeCategoryTreeViewItem.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/IncomingChanges/Gluon/ChangeTreeViewItem.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/IncomingChanges/Gluon/Errors/ErrorListViewItem.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/IncomingChanges/Gluon/Errors/ErrorsListHeaderState.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/IncomingChanges/Gluon/Errors/ErrorsListView.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/IncomingChanges/Gluon/IncomingChangesSelection.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/IncomingChanges/Gluon/IncomingChangesTab.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/IncomingChanges/Gluon/IncomingChangesTreeHeaderState.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/IncomingChanges/Gluon/IncomingChangesTreeView.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/IncomingChanges/Gluon/IncomingChangesViewMenu.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/IncomingChanges/Gluon/UnityIncomingChangesTree.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/IncomingChanges/IIncomingChangesTab.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Locks/DrawLocksListViewItem.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Locks/LocksListHeaderState.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Locks/LocksListView.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Locks/LocksListViewItem.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Locks/LocksSelector.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Locks/LocksTab.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Locks/LocksViewMenu.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/PendingChanges/ChangeCategoryTreeViewItem.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/PendingChanges/Changelists/ChangelistMenu.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/PendingChanges/Changelists/MoveToChangelistMenuBuilder.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/PendingChanges/ChangelistTreeViewItem.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/PendingChanges/ChangeTreeViewItem.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/PendingChanges/Dialogs/CheckinConflictsDialog.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/PendingChanges/Dialogs/CreateChangelistDialog.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/PendingChanges/Dialogs/DependenciesDialog.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/PendingChanges/Dialogs/EmptyCheckinMessageDialog.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/PendingChanges/Dialogs/FilterRulesConfirmationDialog.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/PendingChanges/Dialogs/LaunchCheckinConflictsDialog.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/PendingChanges/Dialogs/LaunchDependenciesDialog.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/PendingChanges/DrawCommentTextArea.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/PendingChanges/FilesFilterPatternsMenuBuilder.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/PendingChanges/PendingChangesMultiColumnHeader.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/PendingChanges/PendingChangesSelection.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/PendingChanges/PendingChangesTab.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/PendingChanges/PendingChangesTab_Operations.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/PendingChanges/PendingChangesTreeHeaderState.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/PendingChanges/PendingChangesTreeView.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/PendingChanges/PendingChangesViewMenu.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/PendingChanges/PendingChangesViewPendingChangeMenu.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/PendingChanges/PendingMergeLinks/MergeLinkListViewItem.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/PendingChanges/PendingMergeLinks/MergeLinksListView.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/PendingChanges/UnityPendingChangesTree.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Welcome/DownloadAndInstallOperation.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Welcome/GetInstallerTmpFileName.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Welcome/MacOSConfigWorkaround.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Views/Welcome/WelcomeView.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/ViewSwitcher.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/VisualElementExtensions.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/WebApi/ChangesetFromCollabCommitResponse.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/WebApi/CredentialsResponse.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/WebApi/CurrentUserAdminCheckResponse.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/WebApi/IsCollabProjectMigratedResponse.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/WebApi/OrganizationCredentials.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/WebApi/SubscriptionDetailsResponse.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/WebApi/TokenExchangeResponse.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/WebApi/WebRestApiClient.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/WorkspaceWindow.cs'
-Path could not be found for script compilation file '/Library/PackageCache/com.unity.collab-proxy/Editor/PlasticSCM/Toolbar/ToolbarButton.cs'
-Unloading broken assembly Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll, this assembly can cause crashes in the runtime
-- Loaded All Assemblies, in  2.283 seconds
-Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  1.057 seconds
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.130 seconds
-Domain Reload Profiling: 3403ms
-	BeginReloadAssembly (591ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (40ms)
-	RebuildCommonClasses (51ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (1577ms)
-		LoadAssemblies (716ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (989ms)
-			TypeCache.Refresh (805ms)
-				TypeCache.ScanAssembly (755ms)
-			BuildScriptInfoCaches (170ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (1131ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (799ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (20ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (70ms)
-			ProcessInitializeOnLoadAttributes (554ms)
-			ProcessInitializeOnLoadMethodAttributes (140ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 1.82 seconds
-Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 198 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5909 unused Assets / (4.9 MB). Loaded Objects now: 6677.
-Memory consumption went from 178.3 MB to 173.4 MB.
-Total: 6.910000 ms (FindLiveObjects: 0.443900 ms CreateObjectMapping: 0.287800 ms MarkObjects: 4.052400 ms  DeleteObjects: 2.124700 ms)
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.875 seconds
-Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.132 seconds
-Domain Reload Profiling: 2005ms
-	BeginReloadAssembly (215ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (54ms)
-	RebuildCommonClasses (41ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (565ms)
-		LoadAssemblies (418ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (248ms)
-			TypeCache.Refresh (117ms)
-				TypeCache.ScanAssembly (101ms)
-			BuildScriptInfoCaches (116ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (1133ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (774ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (73ms)
-			ProcessInitializeOnLoadAttributes (585ms)
-			ProcessInitializeOnLoadMethodAttributes (84ms)
-			AfterProcessingInitializeOnLoad (13ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (16ms)
-Refreshing native plugins compatible for Editor in 1.54 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5905 unused Assets / (4.1 MB). Loaded Objects now: 6692.
-Memory consumption went from 164.5 MB to 160.4 MB.
-Total: 12.639500 ms (FindLiveObjects: 0.965800 ms CreateObjectMapping: 0.968700 ms MarkObjects: 8.116500 ms  DeleteObjects: 2.586800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 361952.148490 seconds.
-  path: Assets/InputSystem_Actions.inputactions
-  artifactKey: Guid(052faaac586de48259a63d0c4782560b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/InputSystem_Actions.inputactions using Guid(052faaac586de48259a63d0c4782560b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15be5ba4d5b2b3ffcc56475d7901d8b3') in 0.0480604 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 1.41 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5896 unused Assets / (3.5 MB). Loaded Objects now: 6693.
-Memory consumption went from 163.5 MB to 160.1 MB.
-Total: 9.312900 ms (FindLiveObjects: 0.572700 ms CreateObjectMapping: 0.457100 ms MarkObjects: 6.086200 ms  DeleteObjects: 2.195400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.798 seconds
-Refreshing native plugins compatible for Editor in 1.50 ms, found 3 plugins.
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.733 seconds
-Domain Reload Profiling: 1531ms
-	BeginReloadAssembly (247ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (55ms)
-	RebuildCommonClasses (41ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (473ms)
-		LoadAssemblies (405ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (198ms)
-			TypeCache.Refresh (11ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (175ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (734ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (472ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (49ms)
-			ProcessInitializeOnLoadAttributes (355ms)
-			ProcessInitializeOnLoadMethodAttributes (47ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5903 unused Assets / (3.5 MB). Loaded Objects now: 6695.
-Memory consumption went from 163.3 MB to 159.8 MB.
-Total: 6.504200 ms (FindLiveObjects: 0.461600 ms CreateObjectMapping: 0.279400 ms MarkObjects: 4.504700 ms  DeleteObjects: 1.257600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  0.972 seconds
-Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.864 seconds
-Domain Reload Profiling: 1838ms
-	BeginReloadAssembly (260ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (57ms)
-	RebuildCommonClasses (49ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (614ms)
-		LoadAssemblies (440ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (319ms)
-			TypeCache.Refresh (177ms)
-				TypeCache.ScanAssembly (159ms)
-			BuildScriptInfoCaches (124ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (864ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (610ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (59ms)
-			ProcessInitializeOnLoadAttributes (485ms)
-			ProcessInitializeOnLoadMethodAttributes (43ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6170 unused Assets / (3.6 MB). Loaded Objects now: 6960.
-Memory consumption went from 165.0 MB to 161.3 MB.
-Total: 6.216000 ms (FindLiveObjects: 0.560400 ms CreateObjectMapping: 0.445900 ms MarkObjects: 3.819500 ms  DeleteObjects: 1.388800 ms)
-
-Prepare: number of updated asset objects reloaded= 1
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  0.637 seconds
-Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.786 seconds
-Domain Reload Profiling: 1423ms
-	BeginReloadAssembly (179ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (43ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (394ms)
-		LoadAssemblies (306ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (181ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (160ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (786ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (542ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (58ms)
-			ProcessInitializeOnLoadAttributes (422ms)
-			ProcessInitializeOnLoadMethodAttributes (41ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6178 unused Assets / (4.3 MB). Loaded Objects now: 6969.
-Memory consumption went from 165.1 MB to 160.8 MB.
-Total: 6.664100 ms (FindLiveObjects: 0.488600 ms CreateObjectMapping: 0.309200 ms MarkObjects: 4.333100 ms  DeleteObjects: 1.532000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 439.401404 seconds.
-  path: Assets/StarterAssets/InputSystem/StarterAssets.inputsettings.asset
-  artifactKey: Guid(9e7be553448fa2546aea5752021cbcf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/InputSystem/StarterAssets.inputsettings.asset using Guid(9e7be553448fa2546aea5752021cbcf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f494e6b551afbd9e9056d395eeec8231') in 0.0422832 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Duplicate assembly 'log4net.dll' with different versions detected, using 'Packages/com.unity.package-validation-suite/Lib/Editor/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.- Loaded All Assemblies, in  0.601 seconds
-Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.801 seconds
-Domain Reload Profiling: 1405ms
-	BeginReloadAssembly (172ms)
+- Finished resetting the current domain, in  0.966 seconds
+Domain Reload Profiling: 2021ms
+	BeginReloadAssembly (378ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (41ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (376ms)
-		LoadAssemblies (282ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (605ms)
+		LoadAssemblies (349ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (170ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (149ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (802ms)
+		AnalyzeDomain (356ms)
+			TypeCache.Refresh (272ms)
+				TypeCache.ScanAssembly (246ms)
+			BuildScriptInfoCaches (69ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (967ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (539ms)
+		SetupLoadedEditorAssemblies (674ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
+			InitializePlatformSupportModulesInManaged (11ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (63ms)
-			ProcessInitializeOnLoadAttributes (402ms)
-			ProcessInitializeOnLoadMethodAttributes (53ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (512ms)
+			ProcessInitializeOnLoadMethodAttributes (80ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6178 unused Assets / (4.0 MB). Loaded Objects now: 6971.
-Memory consumption went from 167.1 MB to 163.1 MB.
-Total: 6.483000 ms (FindLiveObjects: 0.468600 ms CreateObjectMapping: 0.275900 ms MarkObjects: 4.027200 ms  DeleteObjects: 1.709900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 251.473162 seconds.
-  path: Assets/Settings/DefaultVolumeProfile.asset
-  artifactKey: Guid(ab09877e2e707104187f6f83e2f62510) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Settings/DefaultVolumeProfile.asset using Guid(ab09877e2e707104187f6f83e2f62510) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7d60295ab75008fb8d9081c5f9d5bf93') in 0.285938 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+Unloading 200 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6180 unused Assets / (3.6 MB). Loaded Objects now: 6948.
+Memory consumption went from 184.3 MB to 180.7 MB.
+Total: 11.320800 ms (FindLiveObjects: 0.552700 ms CreateObjectMapping: 0.601900 ms MarkObjects: 7.713800 ms  DeleteObjects: 2.449700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/StarterAssets/FirstPersonController/Scenes/Playground/ReflectionProbe-2.exr
-  artifactKey: Guid(c49ef192a57a5af42a728163b2468c8a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/StarterAssets/FirstPersonController/Scenes/Playground/ReflectionProbe-2.exr using Guid(c49ef192a57a5af42a728163b2468c8a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aed70b6a680f3f25af3355900bf437b4') in 0.0632417 seconds
+  Time since last request: 69959.076441 seconds.
+  path: Assets/Scenes/Main/NavMesh-Nav Mesh Surface.asset
+  artifactKey: Guid(eb1540693c2f1f346bf85400daf19f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main/NavMesh-Nav Mesh Surface.asset using Guid(eb1540693c2f1f346bf85400daf19f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3c0560bc92cf4206773553b283b60509') in 0.0213684 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/StarterAssets/Environment/Art/Materials/Blue_Mat.mat
-  artifactKey: Guid(979aef027a1c86c42a15ce35fce366fa) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/StarterAssets/Environment/Art/Materials/Blue_Mat.mat using Guid(979aef027a1c86c42a15ce35fce366fa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '59bbefa885e9a945b6e3aebbc8dfe515') in 0.0455941 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/StarterAssets/Mobile/Prefabs/VirtualInputs/UI_Virtual_Button.prefab
-  artifactKey: Guid(9e55d9b4642484f41be20c69a9b48063) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/StarterAssets/Mobile/Prefabs/VirtualInputs/UI_Virtual_Button.prefab using Guid(9e55d9b4642484f41be20c69a9b48063) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e8d89ff402da0c6cd3f331e075a36521') in 0.101358 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/StarterAssets/Environment/Art/Models/Ramp_Mesh.fbx
-  artifactKey: Guid(426a2785f8a940049aac2c246661cf09) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/StarterAssets/Environment/Art/Models/Ramp_Mesh.fbx using Guid(426a2785f8a940049aac2c246661cf09) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a1e60454ff2ff28e892ff41680b1bc96') in 0.068821 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+  Time since last request: 1248.730248 seconds.
+  path: Assets/Import Assets/GDTV Sharp Shooter Assets/Models/Enemies/Door_Frame_02.fbx
+  artifactKey: Guid(ca2e67c4e68781b4592af81565468482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/GDTV Sharp Shooter Assets/Models/Enemies/Door_Frame_02.fbx using Guid(ca2e67c4e68781b4592af81565468482) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '72184df00e65101dac508ac4616f5565') in 0.5858019 seconds
+Number of updated asset objects reloaded before import = 21Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000036 seconds.
-  path: Assets/StarterAssets/Mobile/UI/UI_Icon_Sprint.png
-  artifactKey: Guid(b0fa70abd2a79904cb00b175dfd8ec7e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/StarterAssets/Mobile/UI/UI_Icon_Sprint.png using Guid(b0fa70abd2a79904cb00b175dfd8ec7e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4f49b326e2ce115a297e7633d0d2434a') in 0.0658231 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/StarterAssets/Environment/Art/Textures/Grid_01_BaseMap.png
-  artifactKey: Guid(d1118dda59970a2449ee890fa247c4c5) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/StarterAssets/Environment/Art/Textures/Grid_01_BaseMap.png using Guid(d1118dda59970a2449ee890fa247c4c5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e9caa63d52485a43f1dd1dc0cf14d506') in 0.0257361 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/StarterAssets/FirstPersonController/Scripts/FirstPersonController.cs
-  artifactKey: Guid(55919ac34a26952479f3fc91f777b2fa) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/StarterAssets/FirstPersonController/Scripts/FirstPersonController.cs using Guid(55919ac34a26952479f3fc91f777b2fa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '272640700e28e23e221d2dc8328e5753') in 0.0195609 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/StarterAssets/Settings/Very Low_PipelineAsset.asset
-  artifactKey: Guid(69480fc1192f04488be5781c2ec080a9) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/StarterAssets/Settings/Very Low_PipelineAsset.asset using Guid(69480fc1192f04488be5781c2ec080a9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd85910a7f24c28d5e6838513c732caa4') in 0.080549 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Settings/PC_RPAsset.asset
-  artifactKey: Guid(4b83569d67af61e458304325a23e5dfd) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Settings/PC_RPAsset.asset using Guid(4b83569d67af61e458304325a23e5dfd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '78fb5485039d332eeca8223cb6bc8572') in 0.0339885 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/StarterAssets/FirstPersonController/Prefabs/NestedParent_Unpack.prefab
-  artifactKey: Guid(035bf1ba97d19214580cfe6f5a29fdc3) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/StarterAssets/FirstPersonController/Prefabs/NestedParent_Unpack.prefab using Guid(035bf1ba97d19214580cfe6f5a29fdc3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2c7499fcd67928066bf38b445b29eb3b') in 0.0412427 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 107
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/StarterAssets/Environment/Art/Materials/GridWhite_01_Mat.mat
-  artifactKey: Guid(dbf898c9f9c4a2d46aa6336e23caeb61) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/StarterAssets/Environment/Art/Materials/GridWhite_01_Mat.mat using Guid(dbf898c9f9c4a2d46aa6336e23caeb61) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7508004a398320163612f7052f448e00') in 0.0280076 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/StarterAssets/Environment/Art/Materials/GreyBlue_Mat.mat
-  artifactKey: Guid(6b911390c5825014e8377183a7837d3f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/StarterAssets/Environment/Art/Materials/GreyBlue_Mat.mat using Guid(6b911390c5825014e8377183a7837d3f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '64274611f2c10be73c9de388e3c0d676') in 0.0187803 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/StarterAssets/Environment/Art/Models/Structure_Mesh.fbx
-  artifactKey: Guid(d0a9bfb4b5f28174884e89dd76563ae8) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/StarterAssets/Environment/Art/Models/Structure_Mesh.fbx using Guid(d0a9bfb4b5f28174884e89dd76563ae8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f5cd77412d1d015e012cb300935c18ef') in 0.0285144 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/StarterAssets/Environment/Art/Models/Ramp_100x100x200_Mesh.fbx
-  artifactKey: Guid(bfff06aaff363a847ad37bf592364e6b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/StarterAssets/Environment/Art/Models/Ramp_100x100x200_Mesh.fbx using Guid(bfff06aaff363a847ad37bf592364e6b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '201a01088fbdadd9da94082b16902618') in 0.0306736 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/StarterAssets/Environment/Art/Textures/Grid_02_BaseMap.png
-  artifactKey: Guid(d9c0dd5cdac07b145be73329e489869a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/StarterAssets/Environment/Art/Textures/Grid_02_BaseMap.png using Guid(d9c0dd5cdac07b145be73329e489869a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8e874f5c0d58741865e76a27632e93af') in 0.0277833 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/StarterAssets/Settings/High_PipelineAsset.asset
-  artifactKey: Guid(85f61ec9fa7114d5f88c736532abeeef) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/StarterAssets/Settings/High_PipelineAsset.asset using Guid(85f61ec9fa7114d5f88c736532abeeef) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5344e14e199e64ce2b7d95683047ad71') in 0.0303094 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/StarterAssets/Environment/Prefabs/Tunnel_Prefab.prefab
-  artifactKey: Guid(e5d7b87d422ee0f478ee09eb32e24f4e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/StarterAssets/Environment/Prefabs/Tunnel_Prefab.prefab using Guid(e5d7b87d422ee0f478ee09eb32e24f4e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dfdf702f581538fd039a3d8802a06f2a') in 0.0335664 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/StarterAssets/Settings/Medium_PipelineAsset.asset
-  artifactKey: Guid(e00893132ee3140498fd2709faa1a711) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/StarterAssets/Settings/Medium_PipelineAsset.asset using Guid(e00893132ee3140498fd2709faa1a711) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dfff296dd28e1721162d1e147732f6f9') in 0.0353127 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/StarterAssets/Mobile/UI/UI_Circle_Faded.png
-  artifactKey: Guid(90ded0611e490aa4ba6961afbfc2280d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/StarterAssets/Mobile/UI/UI_Circle_Faded.png using Guid(90ded0611e490aa4ba6961afbfc2280d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e797713b0f6f7ea23008416ae567a816') in 0.0481613 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/StarterAssets/Environment/Prefabs/Box_100x100x100_Prefab.prefab
-  artifactKey: Guid(e5f4daf24146ee040b5a2d7a73b30aa0) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/StarterAssets/Environment/Prefabs/Box_100x100x100_Prefab.prefab using Guid(e5f4daf24146ee040b5a2d7a73b30aa0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7427fe71aee093daab31f9420ddbec24') in 0.0219261 seconds
+  path: Assets/Import Assets/GDTV Sharp Shooter Assets/Models/Enemies/ModularAttachment_Base.fbx
+  artifactKey: Guid(22446f54df6b86c449f2a4da0587a94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/GDTV Sharp Shooter Assets/Models/Enemies/ModularAttachment_Base.fbx using Guid(22446f54df6b86c449f2a4da0587a94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8ae9c1192138cfa5835fc566b15098a8') in 0.0216281 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/StarterAssets/Environment/Art/Models/Wall_Mesh.fbx
-  artifactKey: Guid(ff02a0a00ab750f48b09459b1cafd1b8) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/StarterAssets/Environment/Art/Models/Wall_Mesh.fbx using Guid(ff02a0a00ab750f48b09459b1cafd1b8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '90f1f5628fe3b434a10f182198dc0324') in 0.0280618 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/StarterAssets/Settings/Ultra_PipelineAsset_ForwardRenderer.asset
-  artifactKey: Guid(4ee808e09c6774436b0c2a048e53e708) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/StarterAssets/Settings/Ultra_PipelineAsset_ForwardRenderer.asset using Guid(4ee808e09c6774436b0c2a048e53e708) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7c4525560345e45bb66916bf6d4d53f5') in 0.0558445 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/StarterAssets/FirstPersonController/Scenes/Playground/ReflectionProbe-1.exr
-  artifactKey: Guid(5515cbebf3ef1144ebf8d50ed9091e17) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/StarterAssets/FirstPersonController/Scenes/Playground/ReflectionProbe-1.exr using Guid(5515cbebf3ef1144ebf8d50ed9091e17) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5fd4307f3e29ab3ee9084e3be1efb73f') in 0.0202156 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/StarterAssets/Settings/Ultra_PipelineAsset.asset
-  artifactKey: Guid(8b79b977e86dc420c9a4b7b6c05a74a8) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/StarterAssets/Settings/Ultra_PipelineAsset.asset using Guid(8b79b977e86dc420c9a4b7b6c05a74a8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f2ef7c2bfc14a46717870230138071ab') in 0.0339675 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/StarterAssets/Environment/Art/Models/Stairs_650_400_300_Mesh.fbx
-  artifactKey: Guid(7e0223e1d3e1733499accfa5ebffb67e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/StarterAssets/Environment/Art/Models/Stairs_650_400_300_Mesh.fbx using Guid(7e0223e1d3e1733499accfa5ebffb67e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '87e7f1895bad8b4118b3a639485b5529') in 0.0338558 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/StarterAssets/Mobile/UI/UI_Icon_Move.png
-  artifactKey: Guid(ff7bfa7addf40784d86f62b8e4a034a6) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/StarterAssets/Mobile/UI/UI_Icon_Move.png using Guid(ff7bfa7addf40784d86f62b8e4a034a6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0b7abce13efd3a5fbbf28a6c9598ca9b') in 0.0311784 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/StarterAssets/Settings/Medium_PipelineAsset_ForwardRenderer.asset
-  artifactKey: Guid(871a00306922d48e1872740163b0d74b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/StarterAssets/Settings/Medium_PipelineAsset_ForwardRenderer.asset using Guid(871a00306922d48e1872740163b0d74b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3022fd0799a48cc4615502263fd0e8dc') in 0.0278702 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/StarterAssets/StarterAssets_Documentation_v1.1.pdf
-  artifactKey: Guid(1030fbd7379311b47bf5b1178c1c7a26) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/StarterAssets/StarterAssets_Documentation_v1.1.pdf using Guid(1030fbd7379311b47bf5b1178c1c7a26) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4a6a6d5b41641ec2a54aeee5678202dd') in 0.0222145 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/StarterAssets/Environment/Art/Skybox/SkyboxLite.mat
-  artifactKey: Guid(f6c51332ac7d92541a38fb263b09d2a8) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/StarterAssets/Environment/Art/Skybox/SkyboxLite.mat using Guid(f6c51332ac7d92541a38fb263b09d2a8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0d015af94e9f66b163ad5e0b5a3c2c50') in 0.017986 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/StarterAssets/Environment/Art/Skybox/SkyboxLiteWarm.mat
-  artifactKey: Guid(aeab33f69c199e54794f516d31450ec4) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/StarterAssets/Environment/Art/Skybox/SkyboxLiteWarm.mat using Guid(aeab33f69c199e54794f516d31450ec4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '315591e94c701fe58b4a34a1f3362b11') in 0.0170699 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Settings/SampleSceneProfile.asset
-  artifactKey: Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Settings/SampleSceneProfile.asset using Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8e7f23c51918407b9331b01351427e08') in 0.0160037 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/StarterAssets/Readme.asset
-  artifactKey: Guid(4181bfe715a83e843b7538d750dc57cc) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/StarterAssets/Readme.asset using Guid(4181bfe715a83e843b7538d750dc57cc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '50fa05300462bc5b885d627f26a1f4a2') in 0.0150712 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/StarterAssets/Environment/Prefabs/Structure_Prefab.prefab
-  artifactKey: Guid(79e624e6a8770a946afb866fd94b394b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/StarterAssets/Environment/Prefabs/Structure_Prefab.prefab using Guid(79e624e6a8770a946afb866fd94b394b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '88926494700754ff302a412c07236981') in 0.0246503 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 115
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualTouchZone.cs
-  artifactKey: Guid(65870f34fef70aa44b0f562cfc810220) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualTouchZone.cs using Guid(65870f34fef70aa44b0f562cfc810220) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '138474b3d40ee1d8fb2a3281f10e0714') in 0.0174887 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/StarterAssets/Settings/Low_PipelineAsset_ForwardRenderer.asset
-  artifactKey: Guid(44b37c8f6729f41cfac615998e7cc9f7) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/StarterAssets/Settings/Low_PipelineAsset_ForwardRenderer.asset using Guid(44b37c8f6729f41cfac615998e7cc9f7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4ea0a8b56c6560d85746207adae8f4cb') in 0.0313443 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Settings/PC_Renderer.asset
-  artifactKey: Guid(f288ae1f4751b564a96ac7587541f7a2) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Settings/PC_Renderer.asset using Guid(f288ae1f4751b564a96ac7587541f7a2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f0db9aa09b4c90f5a7c94cf1c6b238c7') in 0.0322822 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/StarterAssets/Environment/Prefabs/Stairs_650_400_300_Prefab.prefab
-  artifactKey: Guid(50a0925b0c22af146a2d15615f815a1c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/StarterAssets/Environment/Prefabs/Stairs_650_400_300_Prefab.prefab using Guid(50a0925b0c22af146a2d15615f815a1c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '56b8278b236eb559a829ec1ee6f34572') in 0.0238211 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/StarterAssets/FirstPersonController/Scenes/PlaygroundSettings.lighting
-  artifactKey: Guid(027dc98253d80d849acc2271be9bffaf) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/StarterAssets/FirstPersonController/Scenes/PlaygroundSettings.lighting using Guid(027dc98253d80d849acc2271be9bffaf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5c0d5db750c5ce4eda58578a66df7651') in 0.0276417 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/StarterAssets/Environment/Prefabs/Stairs_200x100x200_Prefab.prefab
-  artifactKey: Guid(466621a4836aa504c87c15d88722d465) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/StarterAssets/Environment/Prefabs/Stairs_200x100x200_Prefab.prefab using Guid(466621a4836aa504c87c15d88722d465) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '25d424856c8e448af9e79284a8e68671') in 0.0236499 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/StarterAssets/FirstPersonController/Scenes/Playground/LightingData.asset
-  artifactKey: Guid(2690b0834b22e2940b40018922228eb6) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/StarterAssets/FirstPersonController/Scenes/Playground/LightingData.asset using Guid(2690b0834b22e2940b40018922228eb6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fcef60bd372449c7e8db7aa2dce11a71') in 0.0206136 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/StarterAssets/Environment/Art/Textures/Grid_01_Normal.png
-  artifactKey: Guid(c5c221ed57a3bf6488f8eba0db28a004) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/StarterAssets/Environment/Art/Textures/Grid_01_Normal.png using Guid(c5c221ed57a3bf6488f8eba0db28a004) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd39c7fac323aa5c40716074f141f9bf4') in 0.0261739 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Settings/UniversalRenderPipelineGlobalSettings.asset
-  artifactKey: Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Settings/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '30ee2feaaa753d9312dd664f3b71c490') in 0.0475462 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/StarterAssets/FirstPersonController/Prefabs/MainCamera.prefab
-  artifactKey: Guid(2d3a85ecde41a8246a79669975912b74) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/StarterAssets/FirstPersonController/Prefabs/MainCamera.prefab using Guid(2d3a85ecde41a8246a79669975912b74) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '86022e7de90b82c5b3f8d7e3b00e08ae') in 0.0445817 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.832152 seconds.
-  path: Assets/StarterAssets/Environment/Art/Materials/GridBlue_01_Mat.mat
-  artifactKey: Guid(ff188f58422043f489060e28a5e4e0c0) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/StarterAssets/Environment/Art/Materials/GridBlue_01_Mat.mat using Guid(ff188f58422043f489060e28a5e4e0c0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd0558f340a39615bac0966c4c7ecbe95') in 0.0241384 seconds
-Number of updated asset objects reloaded before import = 21Number of asset objects unloaded after import = 4
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
