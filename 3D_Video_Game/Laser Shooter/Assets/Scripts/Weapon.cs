@@ -6,6 +6,7 @@ public class Weapon : MonoBehaviour
     //[SerializeField] float maxDistance = 20f;
     // Update is called once per frame
     [SerializeField] int hitDamage = 1;
+    [SerializeField] ParticleSystem muzzleFlashFX;
     StarterAssetsInputs starterAssetsInputs;
     private void Awake() {
         starterAssetsInputs = GetComponentInParent<StarterAssetsInputs>();
@@ -17,12 +18,13 @@ public class Weapon : MonoBehaviour
     void HandleShoot()
     {
         if(!starterAssetsInputs.shoot) {return;}
+        muzzleFlashFX.Play();
         RaycastHit hit;
         if(Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward,out hit, Mathf.Infinity))
         {
             EnemyHealth enemyHealth = hit.collider.GetComponent<EnemyHealth>();
             enemyHealth?.TakeDamage(hitDamage);
-            starterAssetsInputs.ShootInput(false);
+            starterAssetsInputs.ShootInput(false); 
         }
     }
 }
