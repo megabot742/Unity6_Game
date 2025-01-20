@@ -112,6 +112,14 @@
       "version": "0.22.0-preview",
       "source": "registry"
     },
+    "com.unity.probuilder@6.0.4": {
+      "name": "com.unity.probuilder",
+      "resolvedPath": "D:\\Unity6_Game\\3D_Video_Game\\Laser Shooter\\Library\\PackageCache\\com.unity.probuilder",
+      "fingerprint": "a2827f523e21ea251861dac290125410ba4e560b",
+      "editorCompatibility": "6000.0.0a1",
+      "version": "6.0.4",
+      "source": "registry"
+    },
     "com.unity.render-pipelines.core@17.0.3": {
       "name": "com.unity.render-pipelines.core",
       "resolvedPath": "D:\\Unity6_Game\\3D_Video_Game\\Laser Shooter\\Library\\PackageCache\\com.unity.render-pipelines.core",
@@ -403,6 +411,14 @@
       "resolvedPath": "D:\\Unity6_Game\\3D_Video_Game\\Laser Shooter\\Library\\PackageCache\\com.unity.modules.xr",
       "version": "1.0.0",
       "source": "builtin"
+    },
+    "com.unity.settings-manager@2.0.1": {
+      "name": "com.unity.settings-manager",
+      "resolvedPath": "D:\\Unity6_Game\\3D_Video_Game\\Laser Shooter\\Library\\PackageCache\\com.unity.settings-manager",
+      "fingerprint": "56a930affa1e4462d3595b5c19a1c2a4bf2015d2",
+      "editorCompatibility": "2018.4.0a1",
+      "version": "2.0.1",
+      "source": "registry"
     }
   }
 }
