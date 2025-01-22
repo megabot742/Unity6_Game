@@ -441,9 +441,11 @@
 "Assets/Import Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualButton.cs"
 "Assets/Import Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualJoystick.cs"
 "Assets/Import Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualTouchZone.cs"
+"Assets/Scripts/ActiveWeapon.cs"
 "Assets/Scripts/EnemyHealth.cs"
 "Assets/Scripts/Robot.cs"
 "Assets/Scripts/Weapon.cs"
+"Assets/Scripts/WeaponSO.cs"
 -langversion:9.0
 /deterministic
 /optimize+
