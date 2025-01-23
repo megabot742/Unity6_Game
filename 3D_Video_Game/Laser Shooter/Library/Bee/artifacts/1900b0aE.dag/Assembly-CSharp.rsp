@@ -445,6 +445,7 @@
 "Assets/Scripts/EnemyHealth.cs"
 "Assets/Scripts/Robot.cs"
 "Assets/Scripts/Weapon.cs"
+"Assets/Scripts/WeaponPickup.cs"
 "Assets/Scripts/WeaponSO.cs"
 -langversion:9.0
 /deterministic
