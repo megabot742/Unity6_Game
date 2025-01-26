@@ -75,6 +75,3 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
 # End of https://www.toptal.com/developers/gitignore/api/unity
-
-3D_Video_Game/*
-!3D_Video_Game/.gitignore
