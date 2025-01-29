@@ -17,3 +17,7 @@ MonoBehaviour:
   FireRate: 0.25
   HitFXPrefabs: {fileID: 6970010705165676448, guid: e3cce61fa59a7c84e82be75ecb43b948, type: 3}
   IsAutomatic: 1
+  CanZoom: 0
+  ZoomAmount: 10
+  ZoomRotationSpeed: 0.3
+  MagazineSize: 99

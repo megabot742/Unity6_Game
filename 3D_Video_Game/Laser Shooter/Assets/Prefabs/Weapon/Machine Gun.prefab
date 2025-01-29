@@ -47,6 +47,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   muzzleFlashFX: {fileID: 2882433847363832978}
+  interactionLayer:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!1 &7480374656322972874
 GameObject:
   m_ObjectHideFlags: 0
