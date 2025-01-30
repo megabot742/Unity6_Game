@@ -138,7 +138,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b25512892b080c4688e01b8791cb51b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingHealth: 3
+  robotExplosionVFX: {fileID: 2002252087748488957, guid: 7492b2c8429c6a64586be3e557508642, type: 3}
+  startingHealth: 6
 --- !u!95 &5198139974131620501
 Animator:
   serializedVersion: 7

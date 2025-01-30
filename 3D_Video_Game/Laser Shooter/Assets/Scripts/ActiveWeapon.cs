@@ -8,6 +8,7 @@ public class ActiveWeapon : MonoBehaviour
 {
     [SerializeField] WeaponSO startingWeaponSO;
     [SerializeField] CinemachineVirtualCamera playerFollowCamera;
+    [SerializeField] Camera weaponCamera;
     [SerializeField] GameObject zoomVignette;
     [SerializeField] TMP_Text ammoText;
 
@@ -32,8 +33,6 @@ public class ActiveWeapon : MonoBehaviour
     void Start() 
     {
         SwitchWeapon(startingWeaponSO);
-        //AdjustAmmo(currentWeaponSO.MagazineSize);
-        //currentWeapon = GetComponentInChildren<Weapon>();
     }
     void Update()
     {
@@ -58,8 +57,7 @@ public class ActiveWeapon : MonoBehaviour
         }
         Weapon newWeapon = Instantiate(weaponSO.weaponPrefab, transform).GetComponent<Weapon>();
         currentWeapon = newWeapon;
-        this.currentWeaponSO = weaponSO; //change Gun
-        //currentAmmo = 0; 
+        this.currentWeaponSO = weaponSO; //change Gun 
         AdjustAmmo(currentWeaponSO.MagazineSize); // change Ammo
     }
     void HandleShoot()
@@ -84,12 +82,14 @@ public class ActiveWeapon : MonoBehaviour
         if(starterAssetsInputs.zoom)
         {
             playerFollowCamera.m_Lens.FieldOfView = currentWeaponSO.ZoomAmount;
+            weaponCamera.fieldOfView = currentWeaponSO.ZoomAmount;
             zoomVignette.SetActive(true);
             firstPersonController.SetRotationSpeed(currentWeaponSO.ZoomRotationSpeed);
         }
         else
         {
             playerFollowCamera.m_Lens.FieldOfView = defaultFOV;
+            weaponCamera.fieldOfView = defaultFOV;
             zoomVignette.SetActive(false);
             firstPersonController.SetRotationSpeed(defaultRotationSpeed);
         }
