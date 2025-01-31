@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4092951971931521807}
   - component: {fileID: 4702348098060937725}
   - component: {fileID: 831926494476426296}
+  - component: {fileID: 8983033799034173132}
   m_Layer: 0
   m_Name: Robot_VFX_Explosion
   m_TagString: Untagged
@@ -28,8 +29,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 5531385296547612962}
   - {fileID: 2418979606713898088}
@@ -118,7 +119,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 15
+      scalar: 3
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -4706,6 +4707,19 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
+--- !u!114 &8983033799034173132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2002252087748488957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e690b8c75ea14844488d156b448d50c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 2
 --- !u!1 &4002698760919500100
 GameObject:
   m_ObjectHideFlags: 0
@@ -4822,7 +4836,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 4
+      scalar: 2
       minScalar: 0.0001
       maxCurve:
         serializedVersion: 2
